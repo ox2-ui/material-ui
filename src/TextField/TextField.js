@@ -43,7 +43,7 @@ const TextField = ({ ...rest, errorText }) => (
 );
 
 TextField.propTypes = {
-  errorText: PropTypes.string,
+  errorText: PropTypes.any,
 };
 
 
