@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
 import { default as MaterialTextField } from 'material-ui/TextField';
 
 const styles = {
@@ -26,18 +26,25 @@ const styles = {
 /**
  * TextField Component
  */
-const TextField = ({ ...rest }) => (
+const TextField = ({ ...rest, errorText }) => (
   <MaterialTextField
     floatingLabelFixed={true}
     underlineFocusStyle={styles.underline}
     floatingLabelStyle={styles.label}
+    floatingLabelFocusStyle={errorText ? styles.error : styles.labelFocus}
     errorStyle={styles.error}
     inputStyle={styles.input}
     hintStyle={styles.hint}
     fullWidth={true}
     style={{fontSize: '18px'}}
+    errorText={errorText}
     {...rest}
   />
 );
+
+TextField.propTypes = {
+  errorText: PropTypes.string,
+};
+
 
 export default TextField;

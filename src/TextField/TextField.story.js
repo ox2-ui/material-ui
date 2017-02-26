@@ -15,14 +15,14 @@ storiesOf('TextField', module)
     <TextField
       id={'myId'}
       value={'Some value'}
-      label={'My label'}
+      floatingLabelText={'My label'}
     />
   ))
   .add('with error', () => (
     <TextField
       id={'myId'}
       label={'My label'}
-      value={'Some value'}
+      floatingLabelText={'Some value'}
       errorText={'Invalid value'}
     />
   ));
