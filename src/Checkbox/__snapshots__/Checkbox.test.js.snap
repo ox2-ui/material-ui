@@ -1,0 +1,2303 @@
+exports[`test renders disabled correctly 1`] = `
+<MuiThemeProvider>
+  <Checkbox
+    checked={false}
+    label="My label">
+    <Checkbox
+      checked={false}
+      disabled={false}
+      iconStyle={
+        Object {
+          "fill": "hsla(0, 0%, 35%, 1)",
+        }
+      }
+      label="My label"
+      labelPosition="right">
+      <EnhancedSwitch
+        checked={false}
+        disabled={false}
+        iconStyle={
+          Object {
+            "fill": "hsla(0, 0%, 35%, 1)",
+            "height": 24,
+            "width": 24,
+          }
+        }
+        inputType="checkbox"
+        label="My label"
+        labelPosition="right"
+        labelStyle={
+          Object {
+            "color": "rgba(0, 0, 0, 0.87)",
+          }
+        }
+        onParentShouldUpdate={[Function]}
+        onSwitch={[Function]}
+        rippleColor="hsla(0, 0%, 35%, 1)"
+        switchElement={
+          <div>
+            <ToggleCheckBoxOutlineBlank
+              style={
+                Object {
+                  "fill": "hsla(0, 0%, 35%, 1)",
+                  "opacity": 1,
+                  "position": "absolute",
+                  "transition": "opacity 1000ms cubic-bezier(0.23, 1, 0.32, 1) 200ms",
+                }
+              } />
+            <ToggleCheckBox
+              style={
+                Object {
+                  "fill": "hsla(0, 0%, 35%, 1)",
+                  "opacity": 0,
+                  "position": "absolute",
+                  "transform": "scale(0)",
+                  "transition": "opacity 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms, transform 0ms cubic-bezier(0.23, 1, 0.32, 1) 450ms",
+                  "transitionOrigin": "50% 50%",
+                }
+              } />
+          </div>
+        }
+        switched={false}>
+        <div
+          style={
+            Object {
+              "cursor": "pointer",
+              "display": "table",
+              "height": "auto",
+              "muiPrepared": true,
+              "overflow": "visible",
+              "position": "relative",
+              "width": "100%",
+            }
+          }>
+          <EventListener
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            target="window" />
+          <input
+            checked={false}
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "cursor": "inherit",
+                "height": "100%",
+                "left": 0,
+                "margin": 0,
+                "muiPrepared": true,
+                "opacity": 0,
+                "padding": 0,
+                "pointerEvents": "all",
+                "position": "absolute",
+                "width": "100%",
+                "zIndex": 2,
+              }
+            }
+            type="checkbox" />
+          <div
+            style={
+              Object {
+                "display": "flex",
+                "height": "100%",
+                "width": "100%",
+              }
+            }>
+            <div
+              style={
+                Object {
+                  "display": "block",
+                  "fill": "hsla(0, 0%, 35%, 1)",
+                  "flexShrink": 0,
+                  "float": "left",
+                  "height": 24,
+                  "marginLeft": 0,
+                  "marginRight": 16,
+                  "muiPrepared": true,
+                  "position": "relative",
+                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                  "width": 24,
+                }
+              }>
+              <div>
+                <ToggleCheckBoxOutlineBlank
+                  style={
+                    Object {
+                      "fill": "hsla(0, 0%, 35%, 1)",
+                      "opacity": 1,
+                      "position": "absolute",
+                      "transition": "opacity 1000ms cubic-bezier(0.23, 1, 0.32, 1) 200ms",
+                    }
+                  }>
+                  <SvgIcon
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    style={
+                      Object {
+                        "fill": "hsla(0, 0%, 35%, 1)",
+                        "opacity": 1,
+                        "position": "absolute",
+                        "transition": "opacity 1000ms cubic-bezier(0.23, 1, 0.32, 1) 200ms",
+                      }
+                    }
+                    viewBox="0 0 24 24">
+                    <svg
+                      onMouseEnter={[Function]}
+                      onMouseLeave={[Function]}
+                      style={
+                        Object {
+                          "color": "rgba(0, 0, 0, 0.87)",
+                          "display": "inline-block",
+                          "fill": "hsla(0, 0%, 35%, 1)",
+                          "height": 24,
+                          "muiPrepared": true,
+                          "opacity": 1,
+                          "position": "absolute",
+                          "transition": "opacity 1000ms cubic-bezier(0.23, 1, 0.32, 1) 200ms",
+                          "userSelect": "none",
+                          "width": 24,
+                        }
+                      }
+                      viewBox="0 0 24 24">
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z" />
+                    </svg>
+                  </SvgIcon>
+                </ToggleCheckBoxOutlineBlank>
+                <ToggleCheckBox
+                  style={
+                    Object {
+                      "fill": "hsla(0, 0%, 35%, 1)",
+                      "opacity": 0,
+                      "position": "absolute",
+                      "transform": "scale(0)",
+                      "transition": "opacity 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms, transform 0ms cubic-bezier(0.23, 1, 0.32, 1) 450ms",
+                      "transitionOrigin": "50% 50%",
+                    }
+                  }>
+                  <SvgIcon
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    style={
+                      Object {
+                        "fill": "hsla(0, 0%, 35%, 1)",
+                        "opacity": 0,
+                        "position": "absolute",
+                        "transform": "scale(0)",
+                        "transition": "opacity 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms, transform 0ms cubic-bezier(0.23, 1, 0.32, 1) 450ms",
+                        "transitionOrigin": "50% 50%",
+                      }
+                    }
+                    viewBox="0 0 24 24">
+                    <svg
+                      onMouseEnter={[Function]}
+                      onMouseLeave={[Function]}
+                      style={
+                        Object {
+                          "color": "rgba(0, 0, 0, 0.87)",
+                          "display": "inline-block",
+                          "fill": "hsla(0, 0%, 35%, 1)",
+                          "height": 24,
+                          "muiPrepared": true,
+                          "opacity": 0,
+                          "position": "absolute",
+                          "transform": "scale(0)",
+                          "transition": "opacity 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms, transform 0ms cubic-bezier(0.23, 1, 0.32, 1) 450ms",
+                          "transitionOrigin": "50% 50%",
+                          "userSelect": "none",
+                          "width": 24,
+                        }
+                      }
+                      viewBox="0 0 24 24">
+                      <path
+                        d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+                    </svg>
+                  </SvgIcon>
+                </ToggleCheckBox>
+              </div>
+              <TouchRipple
+                abortOnScroll={true}
+                centerRipple={true}
+                color="hsla(0, 0%, 35%, 1)"
+                muiTheme={
+                  Object {
+                    "appBar": Object {
+                      "color": "#00bcd4",
+                      "height": 64,
+                      "padding": 24,
+                      "textColor": "#ffffff",
+                      "titleFontWeight": 400,
+                    },
+                    "avatar": Object {
+                      "backgroundColor": "rgb(188, 188, 188)",
+                      "color": "#ffffff",
+                    },
+                    "badge": Object {
+                      "color": "#ffffff",
+                      "fontWeight": 500,
+                      "primaryColor": "#00bcd4",
+                      "primaryTextColor": "#ffffff",
+                      "secondaryColor": "#ff4081",
+                      "secondaryTextColor": "#ffffff",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "baseTheme": Object {
+                      "fontFamily": "Roboto, sans-serif",
+                      "palette": Object {
+                        "accent1Color": "#ff4081",
+                        "accent2Color": "#f5f5f5",
+                        "accent3Color": "#9e9e9e",
+                        "alternateTextColor": "#ffffff",
+                        "borderColor": "#e0e0e0",
+                        "canvasColor": "#ffffff",
+                        "clockCircleColor": "rgba(0, 0, 0, 0.07)",
+                        "disabledColor": "rgba(0, 0, 0, 0.3)",
+                        "pickerHeaderColor": "#00bcd4",
+                        "primary1Color": "#00bcd4",
+                        "primary2Color": "#0097a7",
+                        "primary3Color": "#bdbdbd",
+                        "secondaryTextColor": "rgba(0, 0, 0, 0.54)",
+                        "shadowColor": "rgba(0, 0, 0, 1)",
+                        "textColor": "rgba(0, 0, 0, 0.87)",
+                      },
+                      "spacing": Object {
+                        "desktopDrawerMenuItemHeight": 48,
+                        "desktopDropDownMenuFontSize": 15,
+                        "desktopDropDownMenuItemHeight": 32,
+                        "desktopGutter": 24,
+                        "desktopGutterLess": 16,
+                        "desktopGutterMini": 8,
+                        "desktopGutterMore": 32,
+                        "desktopKeylineIncrement": 64,
+                        "desktopSubheaderHeight": 48,
+                        "desktopToolbarHeight": 56,
+                        "iconSize": 24,
+                      },
+                    },
+                    "bottomNavigation": Object {
+                      "backgroundColor": "#ffffff",
+                      "height": 56,
+                      "selectedColor": "#00bcd4",
+                      "selectedFontSize": 14,
+                      "unselectedColor": "rgba(0, 0, 0, 0.54)",
+                      "unselectedFontSize": 12,
+                    },
+                    "button": Object {
+                      "height": 36,
+                      "iconButtonSize": 48,
+                      "minWidth": 88,
+                    },
+                    "card": Object {
+                      "fontWeight": 500,
+                      "subtitleColor": "rgba(0, 0, 0, 0.54)",
+                      "titleColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "cardMedia": Object {
+                      "color": "rgba(255, 255, 255, 0.87)",
+                      "overlayContentBackground": "rgba(0, 0, 0, 0.54)",
+                      "subtitleColor": "rgba(255, 255, 255, 0.54)",
+                      "titleColor": "rgba(255, 255, 255, 0.87)",
+                    },
+                    "cardText": Object {
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "checkbox": Object {
+                      "boxColor": "rgba(0, 0, 0, 0.87)",
+                      "checkedColor": "#00bcd4",
+                      "disabledColor": "rgba(0, 0, 0, 0.3)",
+                      "labelColor": "rgba(0, 0, 0, 0.87)",
+                      "labelDisabledColor": "rgba(0, 0, 0, 0.3)",
+                      "requiredColor": "#00bcd4",
+                    },
+                    "chip": Object {
+                      "backgroundColor": "rgb(224, 224, 224)",
+                      "deleteIconColor": "rgba(0, 0, 0, 0.26)",
+                      "fontSize": 14,
+                      "fontWeight": 400,
+                      "shadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+                          0 1px 4px rgba(0, 0, 0, 0.12)",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "datePicker": Object {
+                      "calendarTextColor": "rgba(0, 0, 0, 0.87)",
+                      "calendarYearBackgroundColor": "#ffffff",
+                      "color": "#00bcd4",
+                      "selectColor": "#0097a7",
+                      "selectTextColor": "#ffffff",
+                      "textColor": "#ffffff",
+                    },
+                    "dialog": Object {
+                      "bodyColor": "rgba(0, 0, 0, 0.6)",
+                      "bodyFontSize": 16,
+                      "titleFontSize": 22,
+                    },
+                    "drawer": Object {
+                      "color": "#ffffff",
+                      "width": 256,
+                    },
+                    "dropDownMenu": Object {
+                      "accentColor": "#e0e0e0",
+                    },
+                    "enhancedButton": Object {
+                      "tapHighlightColor": "rgba(0, 0, 0, 0)",
+                    },
+                    "flatButton": Object {
+                      "buttonFilterColor": "#999999",
+                      "color": "rgba(0, 0, 0, 0)",
+                      "disabledTextColor": "rgba(0, 0, 0, 0.3)",
+                      "fontSize": 14,
+                      "fontWeight": 500,
+                      "primaryTextColor": "#00bcd4",
+                      "secondaryTextColor": "#ff4081",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "floatingActionButton": Object {
+                      "buttonSize": 56,
+                      "color": "#00bcd4",
+                      "disabledColor": "rgb(224, 224, 224)",
+                      "disabledTextColor": "rgba(0, 0, 0, 0.3)",
+                      "iconColor": "#ffffff",
+                      "miniSize": 40,
+                      "secondaryColor": "#ff4081",
+                      "secondaryIconColor": "#ffffff",
+                    },
+                    "fontFamily": "Roboto, sans-serif",
+                    "gridTile": Object {
+                      "textColor": "#ffffff",
+                    },
+                    "icon": Object {
+                      "backgroundColor": "#00bcd4",
+                      "color": "#ffffff",
+                    },
+                    "inkBar": Object {
+                      "backgroundColor": "#ff4081",
+                    },
+                    "isRtl": false,
+                    "listItem": Object {
+                      "leftIconColor": "#757575",
+                      "nestedLevelDepth": 18,
+                      "rightIconColor": "#757575",
+                      "secondaryTextColor": "rgba(0, 0, 0, 0.54)",
+                    },
+                    "menu": Object {
+                      "backgroundColor": "#ffffff",
+                      "containerBackgroundColor": "#ffffff",
+                    },
+                    "menuItem": Object {
+                      "dataHeight": 32,
+                      "height": 48,
+                      "hoverColor": "rgba(0, 0, 0, 0.1)",
+                      "padding": 24,
+                      "rightIconDesktopFill": "#757575",
+                      "selectedTextColor": "#ff4081",
+                    },
+                    "menuSubheader": Object {
+                      "borderColor": "#e0e0e0",
+                      "padding": 24,
+                      "textColor": "#00bcd4",
+                    },
+                    "overlay": Object {
+                      "backgroundColor": "rgba(0, 0, 0, 0.54)",
+                    },
+                    "palette": Object {
+                      "accent1Color": "#ff4081",
+                      "accent2Color": "#f5f5f5",
+                      "accent3Color": "#9e9e9e",
+                      "alternateTextColor": "#ffffff",
+                      "borderColor": "#e0e0e0",
+                      "canvasColor": "#ffffff",
+                      "clockCircleColor": "rgba(0, 0, 0, 0.07)",
+                      "disabledColor": "rgba(0, 0, 0, 0.3)",
+                      "pickerHeaderColor": "#00bcd4",
+                      "primary1Color": "#00bcd4",
+                      "primary2Color": "#0097a7",
+                      "primary3Color": "#bdbdbd",
+                      "secondaryTextColor": "rgba(0, 0, 0, 0.54)",
+                      "shadowColor": "rgba(0, 0, 0, 1)",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "paper": Object {
+                      "backgroundColor": "#ffffff",
+                      "color": "rgba(0, 0, 0, 0.87)",
+                      "zDepthShadows": Array [
+                        "0 1px 6px rgba(0, 0, 0, 0.12),
+                           0 1px 4px rgba(0, 0, 0, 0.12)",
+                        "0 3px 10px rgba(0, 0, 0, 0.16),
+                           0 3px 10px rgba(0, 0, 0, 0.23)",
+                        "0 10px 30px rgba(0, 0, 0, 0.19),
+                           0 6px 10px rgba(0, 0, 0, 0.23)",
+                        "0 14px 45px rgba(0, 0, 0, 0.25),
+                           0 10px 18px rgba(0, 0, 0, 0.22)",
+                        "0 19px 60px rgba(0, 0, 0, 0.3),
+                           0 15px 20px rgba(0, 0, 0, 0.22)",
+                      ],
+                    },
+                    "prepareStyles": [Function],
+                    "radioButton": Object {
+                      "backgroundColor": "#ffffff",
+                      "borderColor": "rgba(0, 0, 0, 0.87)",
+                      "checkedColor": "#00bcd4",
+                      "disabledColor": "rgba(0, 0, 0, 0.3)",
+                      "labelColor": "rgba(0, 0, 0, 0.87)",
+                      "labelDisabledColor": "rgba(0, 0, 0, 0.3)",
+                      "requiredColor": "#00bcd4",
+                      "size": 24,
+                    },
+                    "raisedButton": Object {
+                      "color": "#ffffff",
+                      "disabledColor": "rgb(229, 229, 229)",
+                      "disabledTextColor": "rgba(0, 0, 0, 0.3)",
+                      "fontSize": 14,
+                      "fontWeight": 500,
+                      "primaryColor": "#00bcd4",
+                      "primaryTextColor": "#ffffff",
+                      "secondaryColor": "#ff4081",
+                      "secondaryTextColor": "#ffffff",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "rawTheme": Object {
+                      "fontFamily": "Roboto, sans-serif",
+                      "palette": Object {
+                        "accent1Color": "#ff4081",
+                        "accent2Color": "#f5f5f5",
+                        "accent3Color": "#9e9e9e",
+                        "alternateTextColor": "#ffffff",
+                        "borderColor": "#e0e0e0",
+                        "canvasColor": "#ffffff",
+                        "clockCircleColor": "rgba(0, 0, 0, 0.07)",
+                        "disabledColor": "rgba(0, 0, 0, 0.3)",
+                        "pickerHeaderColor": "#00bcd4",
+                        "primary1Color": "#00bcd4",
+                        "primary2Color": "#0097a7",
+                        "primary3Color": "#bdbdbd",
+                        "secondaryTextColor": "rgba(0, 0, 0, 0.54)",
+                        "shadowColor": "rgba(0, 0, 0, 1)",
+                        "textColor": "rgba(0, 0, 0, 0.87)",
+                      },
+                      "spacing": Object {
+                        "desktopDrawerMenuItemHeight": 48,
+                        "desktopDropDownMenuFontSize": 15,
+                        "desktopDropDownMenuItemHeight": 32,
+                        "desktopGutter": 24,
+                        "desktopGutterLess": 16,
+                        "desktopGutterMini": 8,
+                        "desktopGutterMore": 32,
+                        "desktopKeylineIncrement": 64,
+                        "desktopSubheaderHeight": 48,
+                        "desktopToolbarHeight": 56,
+                        "iconSize": 24,
+                      },
+                    },
+                    "refreshIndicator": Object {
+                      "loadingStrokeColor": "#00bcd4",
+                      "strokeColor": "#e0e0e0",
+                    },
+                    "ripple": Object {
+                      "color": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "slider": Object {
+                      "handleColorZero": "#bdbdbd",
+                      "handleFillColor": "#ffffff",
+                      "handleSize": 12,
+                      "handleSizeActive": 18,
+                      "handleSizeDisabled": 8,
+                      "rippleColor": "#00bcd4",
+                      "selectionColor": "#00bcd4",
+                      "trackColor": "#bdbdbd",
+                      "trackColorSelected": "#9e9e9e",
+                      "trackSize": 2,
+                    },
+                    "snackbar": Object {
+                      "actionColor": "#ff4081",
+                      "backgroundColor": "rgba(0, 0, 0, 0.87)",
+                      "textColor": "#ffffff",
+                    },
+                    "spacing": Object {
+                      "desktopDrawerMenuItemHeight": 48,
+                      "desktopDropDownMenuFontSize": 15,
+                      "desktopDropDownMenuItemHeight": 32,
+                      "desktopGutter": 24,
+                      "desktopGutterLess": 16,
+                      "desktopGutterMini": 8,
+                      "desktopGutterMore": 32,
+                      "desktopKeylineIncrement": 64,
+                      "desktopSubheaderHeight": 48,
+                      "desktopToolbarHeight": 56,
+                      "iconSize": 24,
+                    },
+                    "stepper": Object {
+                      "backgroundColor": "transparent",
+                      "connectorLineColor": "#bdbdbd",
+                      "disabledTextColor": "rgba(0, 0, 0, 0.26)",
+                      "hoverBackgroundColor": "rgba(0, 0, 0, 0.06)",
+                      "hoveredIconColor": "#616161",
+                      "iconColor": "#00bcd4",
+                      "inactiveIconColor": "#9e9e9e",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "subheader": Object {
+                      "color": "rgba(0, 0, 0, 0.54)",
+                      "fontWeight": 500,
+                    },
+                    "svgIcon": Object {
+                      "color": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "table": Object {
+                      "backgroundColor": "#ffffff",
+                    },
+                    "tableFooter": Object {
+                      "borderColor": "#e0e0e0",
+                      "textColor": "#9e9e9e",
+                    },
+                    "tableHeader": Object {
+                      "borderColor": "#e0e0e0",
+                    },
+                    "tableHeaderColumn": Object {
+                      "height": 56,
+                      "spacing": 24,
+                      "textColor": "#9e9e9e",
+                    },
+                    "tableRow": Object {
+                      "borderColor": "#e0e0e0",
+                      "height": 48,
+                      "hoverColor": "#f5f5f5",
+                      "selectedColor": "#e0e0e0",
+                      "stripeColor": "rgba(127, 221, 233, 0.4)",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "tableRowColumn": Object {
+                      "height": 48,
+                      "spacing": 24,
+                    },
+                    "tabs": Object {
+                      "backgroundColor": "#00bcd4",
+                      "selectedTextColor": "#ffffff",
+                      "textColor": "rgba(255, 255, 255, 0.7)",
+                    },
+                    "textField": Object {
+                      "backgroundColor": "transparent",
+                      "borderColor": "#e0e0e0",
+                      "disabledTextColor": "rgba(0, 0, 0, 0.3)",
+                      "errorColor": "#f44336",
+                      "floatingLabelColor": "rgba(0, 0, 0, 0.3)",
+                      "focusColor": "#00bcd4",
+                      "hintColor": "rgba(0, 0, 0, 0.3)",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "timePicker": Object {
+                      "accentColor": "#00bcd4",
+                      "clockCircleColor": "rgba(0, 0, 0, 0.07)",
+                      "clockColor": "rgba(0, 0, 0, 0.87)",
+                      "color": "#ffffff",
+                      "headerColor": "#00bcd4",
+                      "selectColor": "#0097a7",
+                      "selectTextColor": "#ffffff",
+                      "textColor": "#ffffff",
+                    },
+                    "toggle": Object {
+                      "labelColor": "rgba(0, 0, 0, 0.87)",
+                      "labelDisabledColor": "rgba(0, 0, 0, 0.3)",
+                      "thumbDisabledColor": "#e0e0e0",
+                      "thumbOffColor": "#f5f5f5",
+                      "thumbOnColor": "#00bcd4",
+                      "thumbRequiredColor": "#00bcd4",
+                      "trackDisabledColor": "#bdbdbd",
+                      "trackOffColor": "#bdbdbd",
+                      "trackOnColor": "rgba(0, 188, 212, 0.5)",
+                      "trackRequiredColor": "rgba(0, 188, 212, 0.5)",
+                    },
+                    "toolbar": Object {
+                      "backgroundColor": "rgb(232, 232, 232)",
+                      "color": "rgba(0, 0, 0, 0.54)",
+                      "height": 56,
+                      "hoverColor": "rgba(0, 0, 0, 0.87)",
+                      "iconColor": "rgba(0, 0, 0, 0.4)",
+                      "menuHoverColor": "rgba(0, 0, 0, 0.1)",
+                      "separatorColor": "rgba(0, 0, 0, 0.175)",
+                      "titleFontSize": 20,
+                    },
+                    "tooltip": Object {
+                      "color": "#ffffff",
+                      "rippleBackgroundColor": "#616161",
+                    },
+                    "zIndex": Object {
+                      "appBar": 1100,
+                      "dialog": 1500,
+                      "dialogOverlay": 1400,
+                      "drawer": 1300,
+                      "drawerOverlay": 1200,
+                      "layer": 2000,
+                      "menu": 1000,
+                      "popover": 2100,
+                      "snackbar": 2900,
+                      "tooltip": 3000,
+                    },
+                  }
+                }
+                style={
+                  Object {
+                    "color": "hsla(0, 0%, 35%, 1)",
+                    "height": "200%",
+                    "left": -12,
+                    "top": -12,
+                    "width": "200%",
+                  }
+                }>
+                <div
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]} />
+              </TouchRipple>
+              <FocusRipple
+                color="hsla(0, 0%, 35%, 1)"
+                innerStyle={
+                  Object {
+                    "color": "hsla(0, 0%, 35%, 1)",
+                    "height": "200%",
+                    "left": -12,
+                    "top": -12,
+                    "width": "200%",
+                  }
+                }
+                muiTheme={
+                  Object {
+                    "appBar": Object {
+                      "color": "#00bcd4",
+                      "height": 64,
+                      "padding": 24,
+                      "textColor": "#ffffff",
+                      "titleFontWeight": 400,
+                    },
+                    "avatar": Object {
+                      "backgroundColor": "rgb(188, 188, 188)",
+                      "color": "#ffffff",
+                    },
+                    "badge": Object {
+                      "color": "#ffffff",
+                      "fontWeight": 500,
+                      "primaryColor": "#00bcd4",
+                      "primaryTextColor": "#ffffff",
+                      "secondaryColor": "#ff4081",
+                      "secondaryTextColor": "#ffffff",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "baseTheme": Object {
+                      "fontFamily": "Roboto, sans-serif",
+                      "palette": Object {
+                        "accent1Color": "#ff4081",
+                        "accent2Color": "#f5f5f5",
+                        "accent3Color": "#9e9e9e",
+                        "alternateTextColor": "#ffffff",
+                        "borderColor": "#e0e0e0",
+                        "canvasColor": "#ffffff",
+                        "clockCircleColor": "rgba(0, 0, 0, 0.07)",
+                        "disabledColor": "rgba(0, 0, 0, 0.3)",
+                        "pickerHeaderColor": "#00bcd4",
+                        "primary1Color": "#00bcd4",
+                        "primary2Color": "#0097a7",
+                        "primary3Color": "#bdbdbd",
+                        "secondaryTextColor": "rgba(0, 0, 0, 0.54)",
+                        "shadowColor": "rgba(0, 0, 0, 1)",
+                        "textColor": "rgba(0, 0, 0, 0.87)",
+                      },
+                      "spacing": Object {
+                        "desktopDrawerMenuItemHeight": 48,
+                        "desktopDropDownMenuFontSize": 15,
+                        "desktopDropDownMenuItemHeight": 32,
+                        "desktopGutter": 24,
+                        "desktopGutterLess": 16,
+                        "desktopGutterMini": 8,
+                        "desktopGutterMore": 32,
+                        "desktopKeylineIncrement": 64,
+                        "desktopSubheaderHeight": 48,
+                        "desktopToolbarHeight": 56,
+                        "iconSize": 24,
+                      },
+                    },
+                    "bottomNavigation": Object {
+                      "backgroundColor": "#ffffff",
+                      "height": 56,
+                      "selectedColor": "#00bcd4",
+                      "selectedFontSize": 14,
+                      "unselectedColor": "rgba(0, 0, 0, 0.54)",
+                      "unselectedFontSize": 12,
+                    },
+                    "button": Object {
+                      "height": 36,
+                      "iconButtonSize": 48,
+                      "minWidth": 88,
+                    },
+                    "card": Object {
+                      "fontWeight": 500,
+                      "subtitleColor": "rgba(0, 0, 0, 0.54)",
+                      "titleColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "cardMedia": Object {
+                      "color": "rgba(255, 255, 255, 0.87)",
+                      "overlayContentBackground": "rgba(0, 0, 0, 0.54)",
+                      "subtitleColor": "rgba(255, 255, 255, 0.54)",
+                      "titleColor": "rgba(255, 255, 255, 0.87)",
+                    },
+                    "cardText": Object {
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "checkbox": Object {
+                      "boxColor": "rgba(0, 0, 0, 0.87)",
+                      "checkedColor": "#00bcd4",
+                      "disabledColor": "rgba(0, 0, 0, 0.3)",
+                      "labelColor": "rgba(0, 0, 0, 0.87)",
+                      "labelDisabledColor": "rgba(0, 0, 0, 0.3)",
+                      "requiredColor": "#00bcd4",
+                    },
+                    "chip": Object {
+                      "backgroundColor": "rgb(224, 224, 224)",
+                      "deleteIconColor": "rgba(0, 0, 0, 0.26)",
+                      "fontSize": 14,
+                      "fontWeight": 400,
+                      "shadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+                          0 1px 4px rgba(0, 0, 0, 0.12)",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "datePicker": Object {
+                      "calendarTextColor": "rgba(0, 0, 0, 0.87)",
+                      "calendarYearBackgroundColor": "#ffffff",
+                      "color": "#00bcd4",
+                      "selectColor": "#0097a7",
+                      "selectTextColor": "#ffffff",
+                      "textColor": "#ffffff",
+                    },
+                    "dialog": Object {
+                      "bodyColor": "rgba(0, 0, 0, 0.6)",
+                      "bodyFontSize": 16,
+                      "titleFontSize": 22,
+                    },
+                    "drawer": Object {
+                      "color": "#ffffff",
+                      "width": 256,
+                    },
+                    "dropDownMenu": Object {
+                      "accentColor": "#e0e0e0",
+                    },
+                    "enhancedButton": Object {
+                      "tapHighlightColor": "rgba(0, 0, 0, 0)",
+                    },
+                    "flatButton": Object {
+                      "buttonFilterColor": "#999999",
+                      "color": "rgba(0, 0, 0, 0)",
+                      "disabledTextColor": "rgba(0, 0, 0, 0.3)",
+                      "fontSize": 14,
+                      "fontWeight": 500,
+                      "primaryTextColor": "#00bcd4",
+                      "secondaryTextColor": "#ff4081",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "floatingActionButton": Object {
+                      "buttonSize": 56,
+                      "color": "#00bcd4",
+                      "disabledColor": "rgb(224, 224, 224)",
+                      "disabledTextColor": "rgba(0, 0, 0, 0.3)",
+                      "iconColor": "#ffffff",
+                      "miniSize": 40,
+                      "secondaryColor": "#ff4081",
+                      "secondaryIconColor": "#ffffff",
+                    },
+                    "fontFamily": "Roboto, sans-serif",
+                    "gridTile": Object {
+                      "textColor": "#ffffff",
+                    },
+                    "icon": Object {
+                      "backgroundColor": "#00bcd4",
+                      "color": "#ffffff",
+                    },
+                    "inkBar": Object {
+                      "backgroundColor": "#ff4081",
+                    },
+                    "isRtl": false,
+                    "listItem": Object {
+                      "leftIconColor": "#757575",
+                      "nestedLevelDepth": 18,
+                      "rightIconColor": "#757575",
+                      "secondaryTextColor": "rgba(0, 0, 0, 0.54)",
+                    },
+                    "menu": Object {
+                      "backgroundColor": "#ffffff",
+                      "containerBackgroundColor": "#ffffff",
+                    },
+                    "menuItem": Object {
+                      "dataHeight": 32,
+                      "height": 48,
+                      "hoverColor": "rgba(0, 0, 0, 0.1)",
+                      "padding": 24,
+                      "rightIconDesktopFill": "#757575",
+                      "selectedTextColor": "#ff4081",
+                    },
+                    "menuSubheader": Object {
+                      "borderColor": "#e0e0e0",
+                      "padding": 24,
+                      "textColor": "#00bcd4",
+                    },
+                    "overlay": Object {
+                      "backgroundColor": "rgba(0, 0, 0, 0.54)",
+                    },
+                    "palette": Object {
+                      "accent1Color": "#ff4081",
+                      "accent2Color": "#f5f5f5",
+                      "accent3Color": "#9e9e9e",
+                      "alternateTextColor": "#ffffff",
+                      "borderColor": "#e0e0e0",
+                      "canvasColor": "#ffffff",
+                      "clockCircleColor": "rgba(0, 0, 0, 0.07)",
+                      "disabledColor": "rgba(0, 0, 0, 0.3)",
+                      "pickerHeaderColor": "#00bcd4",
+                      "primary1Color": "#00bcd4",
+                      "primary2Color": "#0097a7",
+                      "primary3Color": "#bdbdbd",
+                      "secondaryTextColor": "rgba(0, 0, 0, 0.54)",
+                      "shadowColor": "rgba(0, 0, 0, 1)",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "paper": Object {
+                      "backgroundColor": "#ffffff",
+                      "color": "rgba(0, 0, 0, 0.87)",
+                      "zDepthShadows": Array [
+                        "0 1px 6px rgba(0, 0, 0, 0.12),
+                           0 1px 4px rgba(0, 0, 0, 0.12)",
+                        "0 3px 10px rgba(0, 0, 0, 0.16),
+                           0 3px 10px rgba(0, 0, 0, 0.23)",
+                        "0 10px 30px rgba(0, 0, 0, 0.19),
+                           0 6px 10px rgba(0, 0, 0, 0.23)",
+                        "0 14px 45px rgba(0, 0, 0, 0.25),
+                           0 10px 18px rgba(0, 0, 0, 0.22)",
+                        "0 19px 60px rgba(0, 0, 0, 0.3),
+                           0 15px 20px rgba(0, 0, 0, 0.22)",
+                      ],
+                    },
+                    "prepareStyles": [Function],
+                    "radioButton": Object {
+                      "backgroundColor": "#ffffff",
+                      "borderColor": "rgba(0, 0, 0, 0.87)",
+                      "checkedColor": "#00bcd4",
+                      "disabledColor": "rgba(0, 0, 0, 0.3)",
+                      "labelColor": "rgba(0, 0, 0, 0.87)",
+                      "labelDisabledColor": "rgba(0, 0, 0, 0.3)",
+                      "requiredColor": "#00bcd4",
+                      "size": 24,
+                    },
+                    "raisedButton": Object {
+                      "color": "#ffffff",
+                      "disabledColor": "rgb(229, 229, 229)",
+                      "disabledTextColor": "rgba(0, 0, 0, 0.3)",
+                      "fontSize": 14,
+                      "fontWeight": 500,
+                      "primaryColor": "#00bcd4",
+                      "primaryTextColor": "#ffffff",
+                      "secondaryColor": "#ff4081",
+                      "secondaryTextColor": "#ffffff",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "rawTheme": Object {
+                      "fontFamily": "Roboto, sans-serif",
+                      "palette": Object {
+                        "accent1Color": "#ff4081",
+                        "accent2Color": "#f5f5f5",
+                        "accent3Color": "#9e9e9e",
+                        "alternateTextColor": "#ffffff",
+                        "borderColor": "#e0e0e0",
+                        "canvasColor": "#ffffff",
+                        "clockCircleColor": "rgba(0, 0, 0, 0.07)",
+                        "disabledColor": "rgba(0, 0, 0, 0.3)",
+                        "pickerHeaderColor": "#00bcd4",
+                        "primary1Color": "#00bcd4",
+                        "primary2Color": "#0097a7",
+                        "primary3Color": "#bdbdbd",
+                        "secondaryTextColor": "rgba(0, 0, 0, 0.54)",
+                        "shadowColor": "rgba(0, 0, 0, 1)",
+                        "textColor": "rgba(0, 0, 0, 0.87)",
+                      },
+                      "spacing": Object {
+                        "desktopDrawerMenuItemHeight": 48,
+                        "desktopDropDownMenuFontSize": 15,
+                        "desktopDropDownMenuItemHeight": 32,
+                        "desktopGutter": 24,
+                        "desktopGutterLess": 16,
+                        "desktopGutterMini": 8,
+                        "desktopGutterMore": 32,
+                        "desktopKeylineIncrement": 64,
+                        "desktopSubheaderHeight": 48,
+                        "desktopToolbarHeight": 56,
+                        "iconSize": 24,
+                      },
+                    },
+                    "refreshIndicator": Object {
+                      "loadingStrokeColor": "#00bcd4",
+                      "strokeColor": "#e0e0e0",
+                    },
+                    "ripple": Object {
+                      "color": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "slider": Object {
+                      "handleColorZero": "#bdbdbd",
+                      "handleFillColor": "#ffffff",
+                      "handleSize": 12,
+                      "handleSizeActive": 18,
+                      "handleSizeDisabled": 8,
+                      "rippleColor": "#00bcd4",
+                      "selectionColor": "#00bcd4",
+                      "trackColor": "#bdbdbd",
+                      "trackColorSelected": "#9e9e9e",
+                      "trackSize": 2,
+                    },
+                    "snackbar": Object {
+                      "actionColor": "#ff4081",
+                      "backgroundColor": "rgba(0, 0, 0, 0.87)",
+                      "textColor": "#ffffff",
+                    },
+                    "spacing": Object {
+                      "desktopDrawerMenuItemHeight": 48,
+                      "desktopDropDownMenuFontSize": 15,
+                      "desktopDropDownMenuItemHeight": 32,
+                      "desktopGutter": 24,
+                      "desktopGutterLess": 16,
+                      "desktopGutterMini": 8,
+                      "desktopGutterMore": 32,
+                      "desktopKeylineIncrement": 64,
+                      "desktopSubheaderHeight": 48,
+                      "desktopToolbarHeight": 56,
+                      "iconSize": 24,
+                    },
+                    "stepper": Object {
+                      "backgroundColor": "transparent",
+                      "connectorLineColor": "#bdbdbd",
+                      "disabledTextColor": "rgba(0, 0, 0, 0.26)",
+                      "hoverBackgroundColor": "rgba(0, 0, 0, 0.06)",
+                      "hoveredIconColor": "#616161",
+                      "iconColor": "#00bcd4",
+                      "inactiveIconColor": "#9e9e9e",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "subheader": Object {
+                      "color": "rgba(0, 0, 0, 0.54)",
+                      "fontWeight": 500,
+                    },
+                    "svgIcon": Object {
+                      "color": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "table": Object {
+                      "backgroundColor": "#ffffff",
+                    },
+                    "tableFooter": Object {
+                      "borderColor": "#e0e0e0",
+                      "textColor": "#9e9e9e",
+                    },
+                    "tableHeader": Object {
+                      "borderColor": "#e0e0e0",
+                    },
+                    "tableHeaderColumn": Object {
+                      "height": 56,
+                      "spacing": 24,
+                      "textColor": "#9e9e9e",
+                    },
+                    "tableRow": Object {
+                      "borderColor": "#e0e0e0",
+                      "height": 48,
+                      "hoverColor": "#f5f5f5",
+                      "selectedColor": "#e0e0e0",
+                      "stripeColor": "rgba(127, 221, 233, 0.4)",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "tableRowColumn": Object {
+                      "height": 48,
+                      "spacing": 24,
+                    },
+                    "tabs": Object {
+                      "backgroundColor": "#00bcd4",
+                      "selectedTextColor": "#ffffff",
+                      "textColor": "rgba(255, 255, 255, 0.7)",
+                    },
+                    "textField": Object {
+                      "backgroundColor": "transparent",
+                      "borderColor": "#e0e0e0",
+                      "disabledTextColor": "rgba(0, 0, 0, 0.3)",
+                      "errorColor": "#f44336",
+                      "floatingLabelColor": "rgba(0, 0, 0, 0.3)",
+                      "focusColor": "#00bcd4",
+                      "hintColor": "rgba(0, 0, 0, 0.3)",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "timePicker": Object {
+                      "accentColor": "#00bcd4",
+                      "clockCircleColor": "rgba(0, 0, 0, 0.07)",
+                      "clockColor": "rgba(0, 0, 0, 0.87)",
+                      "color": "#ffffff",
+                      "headerColor": "#00bcd4",
+                      "selectColor": "#0097a7",
+                      "selectTextColor": "#ffffff",
+                      "textColor": "#ffffff",
+                    },
+                    "toggle": Object {
+                      "labelColor": "rgba(0, 0, 0, 0.87)",
+                      "labelDisabledColor": "rgba(0, 0, 0, 0.3)",
+                      "thumbDisabledColor": "#e0e0e0",
+                      "thumbOffColor": "#f5f5f5",
+                      "thumbOnColor": "#00bcd4",
+                      "thumbRequiredColor": "#00bcd4",
+                      "trackDisabledColor": "#bdbdbd",
+                      "trackOffColor": "#bdbdbd",
+                      "trackOnColor": "rgba(0, 188, 212, 0.5)",
+                      "trackRequiredColor": "rgba(0, 188, 212, 0.5)",
+                    },
+                    "toolbar": Object {
+                      "backgroundColor": "rgb(232, 232, 232)",
+                      "color": "rgba(0, 0, 0, 0.54)",
+                      "height": 56,
+                      "hoverColor": "rgba(0, 0, 0, 0.87)",
+                      "iconColor": "rgba(0, 0, 0, 0.4)",
+                      "menuHoverColor": "rgba(0, 0, 0, 0.1)",
+                      "separatorColor": "rgba(0, 0, 0, 0.175)",
+                      "titleFontSize": 20,
+                    },
+                    "tooltip": Object {
+                      "color": "#ffffff",
+                      "rippleBackgroundColor": "#616161",
+                    },
+                    "zIndex": Object {
+                      "appBar": 1100,
+                      "dialog": 1500,
+                      "dialogOverlay": 1400,
+                      "drawer": 1300,
+                      "drawerOverlay": 1200,
+                      "layer": 2000,
+                      "menu": 1000,
+                      "popover": 2100,
+                      "snackbar": 2900,
+                      "tooltip": 3000,
+                    },
+                  }
+                }
+                show={false}>
+                <ScaleIn
+                  enterDelay={0}
+                  maxScale={0.85}
+                  style={
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "100%",
+                    }
+                  }>
+                  <ReactTransitionGroup
+                    childFactory={[Function]}
+                    component="div"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "muiPrepared": true,
+                        "overflow": "hidden",
+                        "position": "absolute",
+                        "top": 0,
+                        "width": "100%",
+                      }
+                    }>
+                    <div
+                      style={
+                        Object {
+                          "height": "100%",
+                          "left": 0,
+                          "muiPrepared": true,
+                          "overflow": "hidden",
+                          "position": "absolute",
+                          "top": 0,
+                          "width": "100%",
+                        }
+                      } />
+                  </ReactTransitionGroup>
+                </ScaleIn>
+              </FocusRipple>
+            </div>
+            <label
+              style={
+                Object {
+                  "color": "rgba(0, 0, 0, 0.87)",
+                  "display": "block",
+                  "float": "left",
+                  "fontFamily": "Roboto, sans-serif",
+                  "lineHeight": "24px",
+                  "muiPrepared": true,
+                  "position": "relative",
+                  "width": "calc(100% - 60px)",
+                }
+              }>
+              My label
+            </label>
+          </div>
+        </div>
+      </EnhancedSwitch>
+    </Checkbox>
+  </Checkbox>
+</MuiThemeProvider>
+`;
+
+exports[`test renders enabled correctly 1`] = `
+<MuiThemeProvider>
+  <Checkbox
+    checked={true}
+    label="My label">
+    <Checkbox
+      checked={true}
+      disabled={false}
+      iconStyle={
+        Object {
+          "fill": "hsla(0, 0%, 35%, 1)",
+        }
+      }
+      label="My label"
+      labelPosition="right">
+      <EnhancedSwitch
+        checked={true}
+        disabled={false}
+        iconStyle={
+          Object {
+            "fill": "hsla(0, 0%, 35%, 1)",
+            "height": 24,
+            "width": 24,
+          }
+        }
+        inputType="checkbox"
+        label="My label"
+        labelPosition="right"
+        labelStyle={
+          Object {
+            "color": "rgba(0, 0, 0, 0.87)",
+          }
+        }
+        onParentShouldUpdate={[Function]}
+        onSwitch={[Function]}
+        rippleColor="hsla(0, 0%, 35%, 1)"
+        switchElement={
+          <div>
+            <ToggleCheckBoxOutlineBlank
+              style={
+                Object {
+                  "fill": "hsla(0, 0%, 35%, 1)",
+                  "opacity": 0,
+                  "position": "absolute",
+                  "transition": "opacity 650ms cubic-bezier(0.23, 1, 0.32, 1) 150ms",
+                }
+              } />
+            <ToggleCheckBox
+              style={
+                Object {
+                  "fill": "hsla(0, 0%, 35%, 1)",
+                  "opacity": 1,
+                  "position": "absolute",
+                  "transform": "scale(1)",
+                  "transition": "opacity 0ms cubic-bezier(0.23, 1, 0.32, 1) 0ms, transform 800ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                  "transitionOrigin": "50% 50%",
+                }
+              } />
+          </div>
+        }
+        switched={true}>
+        <div
+          style={
+            Object {
+              "cursor": "pointer",
+              "display": "table",
+              "height": "auto",
+              "muiPrepared": true,
+              "overflow": "visible",
+              "position": "relative",
+              "width": "100%",
+            }
+          }>
+          <EventListener
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            target="window" />
+          <input
+            checked={true}
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "cursor": "inherit",
+                "height": "100%",
+                "left": 0,
+                "margin": 0,
+                "muiPrepared": true,
+                "opacity": 0,
+                "padding": 0,
+                "pointerEvents": "all",
+                "position": "absolute",
+                "width": "100%",
+                "zIndex": 2,
+              }
+            }
+            type="checkbox" />
+          <div
+            style={
+              Object {
+                "display": "flex",
+                "height": "100%",
+                "width": "100%",
+              }
+            }>
+            <div
+              style={
+                Object {
+                  "display": "block",
+                  "fill": "hsla(0, 0%, 35%, 1)",
+                  "flexShrink": 0,
+                  "float": "left",
+                  "height": 24,
+                  "marginLeft": 0,
+                  "marginRight": 16,
+                  "muiPrepared": true,
+                  "position": "relative",
+                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                  "width": 24,
+                }
+              }>
+              <div>
+                <ToggleCheckBoxOutlineBlank
+                  style={
+                    Object {
+                      "fill": "hsla(0, 0%, 35%, 1)",
+                      "opacity": 0,
+                      "position": "absolute",
+                      "transition": "opacity 650ms cubic-bezier(0.23, 1, 0.32, 1) 150ms",
+                    }
+                  }>
+                  <SvgIcon
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    style={
+                      Object {
+                        "fill": "hsla(0, 0%, 35%, 1)",
+                        "opacity": 0,
+                        "position": "absolute",
+                        "transition": "opacity 650ms cubic-bezier(0.23, 1, 0.32, 1) 150ms",
+                      }
+                    }
+                    viewBox="0 0 24 24">
+                    <svg
+                      onMouseEnter={[Function]}
+                      onMouseLeave={[Function]}
+                      style={
+                        Object {
+                          "color": "rgba(0, 0, 0, 0.87)",
+                          "display": "inline-block",
+                          "fill": "hsla(0, 0%, 35%, 1)",
+                          "height": 24,
+                          "muiPrepared": true,
+                          "opacity": 0,
+                          "position": "absolute",
+                          "transition": "opacity 650ms cubic-bezier(0.23, 1, 0.32, 1) 150ms",
+                          "userSelect": "none",
+                          "width": 24,
+                        }
+                      }
+                      viewBox="0 0 24 24">
+                      <path
+                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z" />
+                    </svg>
+                  </SvgIcon>
+                </ToggleCheckBoxOutlineBlank>
+                <ToggleCheckBox
+                  style={
+                    Object {
+                      "fill": "hsla(0, 0%, 35%, 1)",
+                      "opacity": 1,
+                      "position": "absolute",
+                      "transform": "scale(1)",
+                      "transition": "opacity 0ms cubic-bezier(0.23, 1, 0.32, 1) 0ms, transform 800ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                      "transitionOrigin": "50% 50%",
+                    }
+                  }>
+                  <SvgIcon
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    style={
+                      Object {
+                        "fill": "hsla(0, 0%, 35%, 1)",
+                        "opacity": 1,
+                        "position": "absolute",
+                        "transform": "scale(1)",
+                        "transition": "opacity 0ms cubic-bezier(0.23, 1, 0.32, 1) 0ms, transform 800ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        "transitionOrigin": "50% 50%",
+                      }
+                    }
+                    viewBox="0 0 24 24">
+                    <svg
+                      onMouseEnter={[Function]}
+                      onMouseLeave={[Function]}
+                      style={
+                        Object {
+                          "color": "rgba(0, 0, 0, 0.87)",
+                          "display": "inline-block",
+                          "fill": "hsla(0, 0%, 35%, 1)",
+                          "height": 24,
+                          "muiPrepared": true,
+                          "opacity": 1,
+                          "position": "absolute",
+                          "transform": "scale(1)",
+                          "transition": "opacity 0ms cubic-bezier(0.23, 1, 0.32, 1) 0ms, transform 800ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                          "transitionOrigin": "50% 50%",
+                          "userSelect": "none",
+                          "width": 24,
+                        }
+                      }
+                      viewBox="0 0 24 24">
+                      <path
+                        d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+                    </svg>
+                  </SvgIcon>
+                </ToggleCheckBox>
+              </div>
+              <TouchRipple
+                abortOnScroll={true}
+                centerRipple={true}
+                color="hsla(0, 0%, 35%, 1)"
+                muiTheme={
+                  Object {
+                    "appBar": Object {
+                      "color": "#00bcd4",
+                      "height": 64,
+                      "padding": 24,
+                      "textColor": "#ffffff",
+                      "titleFontWeight": 400,
+                    },
+                    "avatar": Object {
+                      "backgroundColor": "rgb(188, 188, 188)",
+                      "color": "#ffffff",
+                    },
+                    "badge": Object {
+                      "color": "#ffffff",
+                      "fontWeight": 500,
+                      "primaryColor": "#00bcd4",
+                      "primaryTextColor": "#ffffff",
+                      "secondaryColor": "#ff4081",
+                      "secondaryTextColor": "#ffffff",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "baseTheme": Object {
+                      "fontFamily": "Roboto, sans-serif",
+                      "palette": Object {
+                        "accent1Color": "#ff4081",
+                        "accent2Color": "#f5f5f5",
+                        "accent3Color": "#9e9e9e",
+                        "alternateTextColor": "#ffffff",
+                        "borderColor": "#e0e0e0",
+                        "canvasColor": "#ffffff",
+                        "clockCircleColor": "rgba(0, 0, 0, 0.07)",
+                        "disabledColor": "rgba(0, 0, 0, 0.3)",
+                        "pickerHeaderColor": "#00bcd4",
+                        "primary1Color": "#00bcd4",
+                        "primary2Color": "#0097a7",
+                        "primary3Color": "#bdbdbd",
+                        "secondaryTextColor": "rgba(0, 0, 0, 0.54)",
+                        "shadowColor": "rgba(0, 0, 0, 1)",
+                        "textColor": "rgba(0, 0, 0, 0.87)",
+                      },
+                      "spacing": Object {
+                        "desktopDrawerMenuItemHeight": 48,
+                        "desktopDropDownMenuFontSize": 15,
+                        "desktopDropDownMenuItemHeight": 32,
+                        "desktopGutter": 24,
+                        "desktopGutterLess": 16,
+                        "desktopGutterMini": 8,
+                        "desktopGutterMore": 32,
+                        "desktopKeylineIncrement": 64,
+                        "desktopSubheaderHeight": 48,
+                        "desktopToolbarHeight": 56,
+                        "iconSize": 24,
+                      },
+                    },
+                    "bottomNavigation": Object {
+                      "backgroundColor": "#ffffff",
+                      "height": 56,
+                      "selectedColor": "#00bcd4",
+                      "selectedFontSize": 14,
+                      "unselectedColor": "rgba(0, 0, 0, 0.54)",
+                      "unselectedFontSize": 12,
+                    },
+                    "button": Object {
+                      "height": 36,
+                      "iconButtonSize": 48,
+                      "minWidth": 88,
+                    },
+                    "card": Object {
+                      "fontWeight": 500,
+                      "subtitleColor": "rgba(0, 0, 0, 0.54)",
+                      "titleColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "cardMedia": Object {
+                      "color": "rgba(255, 255, 255, 0.87)",
+                      "overlayContentBackground": "rgba(0, 0, 0, 0.54)",
+                      "subtitleColor": "rgba(255, 255, 255, 0.54)",
+                      "titleColor": "rgba(255, 255, 255, 0.87)",
+                    },
+                    "cardText": Object {
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "checkbox": Object {
+                      "boxColor": "rgba(0, 0, 0, 0.87)",
+                      "checkedColor": "#00bcd4",
+                      "disabledColor": "rgba(0, 0, 0, 0.3)",
+                      "labelColor": "rgba(0, 0, 0, 0.87)",
+                      "labelDisabledColor": "rgba(0, 0, 0, 0.3)",
+                      "requiredColor": "#00bcd4",
+                    },
+                    "chip": Object {
+                      "backgroundColor": "rgb(224, 224, 224)",
+                      "deleteIconColor": "rgba(0, 0, 0, 0.26)",
+                      "fontSize": 14,
+                      "fontWeight": 400,
+                      "shadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+                          0 1px 4px rgba(0, 0, 0, 0.12)",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "datePicker": Object {
+                      "calendarTextColor": "rgba(0, 0, 0, 0.87)",
+                      "calendarYearBackgroundColor": "#ffffff",
+                      "color": "#00bcd4",
+                      "selectColor": "#0097a7",
+                      "selectTextColor": "#ffffff",
+                      "textColor": "#ffffff",
+                    },
+                    "dialog": Object {
+                      "bodyColor": "rgba(0, 0, 0, 0.6)",
+                      "bodyFontSize": 16,
+                      "titleFontSize": 22,
+                    },
+                    "drawer": Object {
+                      "color": "#ffffff",
+                      "width": 256,
+                    },
+                    "dropDownMenu": Object {
+                      "accentColor": "#e0e0e0",
+                    },
+                    "enhancedButton": Object {
+                      "tapHighlightColor": "rgba(0, 0, 0, 0)",
+                    },
+                    "flatButton": Object {
+                      "buttonFilterColor": "#999999",
+                      "color": "rgba(0, 0, 0, 0)",
+                      "disabledTextColor": "rgba(0, 0, 0, 0.3)",
+                      "fontSize": 14,
+                      "fontWeight": 500,
+                      "primaryTextColor": "#00bcd4",
+                      "secondaryTextColor": "#ff4081",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "floatingActionButton": Object {
+                      "buttonSize": 56,
+                      "color": "#00bcd4",
+                      "disabledColor": "rgb(224, 224, 224)",
+                      "disabledTextColor": "rgba(0, 0, 0, 0.3)",
+                      "iconColor": "#ffffff",
+                      "miniSize": 40,
+                      "secondaryColor": "#ff4081",
+                      "secondaryIconColor": "#ffffff",
+                    },
+                    "fontFamily": "Roboto, sans-serif",
+                    "gridTile": Object {
+                      "textColor": "#ffffff",
+                    },
+                    "icon": Object {
+                      "backgroundColor": "#00bcd4",
+                      "color": "#ffffff",
+                    },
+                    "inkBar": Object {
+                      "backgroundColor": "#ff4081",
+                    },
+                    "isRtl": false,
+                    "listItem": Object {
+                      "leftIconColor": "#757575",
+                      "nestedLevelDepth": 18,
+                      "rightIconColor": "#757575",
+                      "secondaryTextColor": "rgba(0, 0, 0, 0.54)",
+                    },
+                    "menu": Object {
+                      "backgroundColor": "#ffffff",
+                      "containerBackgroundColor": "#ffffff",
+                    },
+                    "menuItem": Object {
+                      "dataHeight": 32,
+                      "height": 48,
+                      "hoverColor": "rgba(0, 0, 0, 0.1)",
+                      "padding": 24,
+                      "rightIconDesktopFill": "#757575",
+                      "selectedTextColor": "#ff4081",
+                    },
+                    "menuSubheader": Object {
+                      "borderColor": "#e0e0e0",
+                      "padding": 24,
+                      "textColor": "#00bcd4",
+                    },
+                    "overlay": Object {
+                      "backgroundColor": "rgba(0, 0, 0, 0.54)",
+                    },
+                    "palette": Object {
+                      "accent1Color": "#ff4081",
+                      "accent2Color": "#f5f5f5",
+                      "accent3Color": "#9e9e9e",
+                      "alternateTextColor": "#ffffff",
+                      "borderColor": "#e0e0e0",
+                      "canvasColor": "#ffffff",
+                      "clockCircleColor": "rgba(0, 0, 0, 0.07)",
+                      "disabledColor": "rgba(0, 0, 0, 0.3)",
+                      "pickerHeaderColor": "#00bcd4",
+                      "primary1Color": "#00bcd4",
+                      "primary2Color": "#0097a7",
+                      "primary3Color": "#bdbdbd",
+                      "secondaryTextColor": "rgba(0, 0, 0, 0.54)",
+                      "shadowColor": "rgba(0, 0, 0, 1)",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "paper": Object {
+                      "backgroundColor": "#ffffff",
+                      "color": "rgba(0, 0, 0, 0.87)",
+                      "zDepthShadows": Array [
+                        "0 1px 6px rgba(0, 0, 0, 0.12),
+                           0 1px 4px rgba(0, 0, 0, 0.12)",
+                        "0 3px 10px rgba(0, 0, 0, 0.16),
+                           0 3px 10px rgba(0, 0, 0, 0.23)",
+                        "0 10px 30px rgba(0, 0, 0, 0.19),
+                           0 6px 10px rgba(0, 0, 0, 0.23)",
+                        "0 14px 45px rgba(0, 0, 0, 0.25),
+                           0 10px 18px rgba(0, 0, 0, 0.22)",
+                        "0 19px 60px rgba(0, 0, 0, 0.3),
+                           0 15px 20px rgba(0, 0, 0, 0.22)",
+                      ],
+                    },
+                    "prepareStyles": [Function],
+                    "radioButton": Object {
+                      "backgroundColor": "#ffffff",
+                      "borderColor": "rgba(0, 0, 0, 0.87)",
+                      "checkedColor": "#00bcd4",
+                      "disabledColor": "rgba(0, 0, 0, 0.3)",
+                      "labelColor": "rgba(0, 0, 0, 0.87)",
+                      "labelDisabledColor": "rgba(0, 0, 0, 0.3)",
+                      "requiredColor": "#00bcd4",
+                      "size": 24,
+                    },
+                    "raisedButton": Object {
+                      "color": "#ffffff",
+                      "disabledColor": "rgb(229, 229, 229)",
+                      "disabledTextColor": "rgba(0, 0, 0, 0.3)",
+                      "fontSize": 14,
+                      "fontWeight": 500,
+                      "primaryColor": "#00bcd4",
+                      "primaryTextColor": "#ffffff",
+                      "secondaryColor": "#ff4081",
+                      "secondaryTextColor": "#ffffff",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "rawTheme": Object {
+                      "fontFamily": "Roboto, sans-serif",
+                      "palette": Object {
+                        "accent1Color": "#ff4081",
+                        "accent2Color": "#f5f5f5",
+                        "accent3Color": "#9e9e9e",
+                        "alternateTextColor": "#ffffff",
+                        "borderColor": "#e0e0e0",
+                        "canvasColor": "#ffffff",
+                        "clockCircleColor": "rgba(0, 0, 0, 0.07)",
+                        "disabledColor": "rgba(0, 0, 0, 0.3)",
+                        "pickerHeaderColor": "#00bcd4",
+                        "primary1Color": "#00bcd4",
+                        "primary2Color": "#0097a7",
+                        "primary3Color": "#bdbdbd",
+                        "secondaryTextColor": "rgba(0, 0, 0, 0.54)",
+                        "shadowColor": "rgba(0, 0, 0, 1)",
+                        "textColor": "rgba(0, 0, 0, 0.87)",
+                      },
+                      "spacing": Object {
+                        "desktopDrawerMenuItemHeight": 48,
+                        "desktopDropDownMenuFontSize": 15,
+                        "desktopDropDownMenuItemHeight": 32,
+                        "desktopGutter": 24,
+                        "desktopGutterLess": 16,
+                        "desktopGutterMini": 8,
+                        "desktopGutterMore": 32,
+                        "desktopKeylineIncrement": 64,
+                        "desktopSubheaderHeight": 48,
+                        "desktopToolbarHeight": 56,
+                        "iconSize": 24,
+                      },
+                    },
+                    "refreshIndicator": Object {
+                      "loadingStrokeColor": "#00bcd4",
+                      "strokeColor": "#e0e0e0",
+                    },
+                    "ripple": Object {
+                      "color": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "slider": Object {
+                      "handleColorZero": "#bdbdbd",
+                      "handleFillColor": "#ffffff",
+                      "handleSize": 12,
+                      "handleSizeActive": 18,
+                      "handleSizeDisabled": 8,
+                      "rippleColor": "#00bcd4",
+                      "selectionColor": "#00bcd4",
+                      "trackColor": "#bdbdbd",
+                      "trackColorSelected": "#9e9e9e",
+                      "trackSize": 2,
+                    },
+                    "snackbar": Object {
+                      "actionColor": "#ff4081",
+                      "backgroundColor": "rgba(0, 0, 0, 0.87)",
+                      "textColor": "#ffffff",
+                    },
+                    "spacing": Object {
+                      "desktopDrawerMenuItemHeight": 48,
+                      "desktopDropDownMenuFontSize": 15,
+                      "desktopDropDownMenuItemHeight": 32,
+                      "desktopGutter": 24,
+                      "desktopGutterLess": 16,
+                      "desktopGutterMini": 8,
+                      "desktopGutterMore": 32,
+                      "desktopKeylineIncrement": 64,
+                      "desktopSubheaderHeight": 48,
+                      "desktopToolbarHeight": 56,
+                      "iconSize": 24,
+                    },
+                    "stepper": Object {
+                      "backgroundColor": "transparent",
+                      "connectorLineColor": "#bdbdbd",
+                      "disabledTextColor": "rgba(0, 0, 0, 0.26)",
+                      "hoverBackgroundColor": "rgba(0, 0, 0, 0.06)",
+                      "hoveredIconColor": "#616161",
+                      "iconColor": "#00bcd4",
+                      "inactiveIconColor": "#9e9e9e",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "subheader": Object {
+                      "color": "rgba(0, 0, 0, 0.54)",
+                      "fontWeight": 500,
+                    },
+                    "svgIcon": Object {
+                      "color": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "table": Object {
+                      "backgroundColor": "#ffffff",
+                    },
+                    "tableFooter": Object {
+                      "borderColor": "#e0e0e0",
+                      "textColor": "#9e9e9e",
+                    },
+                    "tableHeader": Object {
+                      "borderColor": "#e0e0e0",
+                    },
+                    "tableHeaderColumn": Object {
+                      "height": 56,
+                      "spacing": 24,
+                      "textColor": "#9e9e9e",
+                    },
+                    "tableRow": Object {
+                      "borderColor": "#e0e0e0",
+                      "height": 48,
+                      "hoverColor": "#f5f5f5",
+                      "selectedColor": "#e0e0e0",
+                      "stripeColor": "rgba(127, 221, 233, 0.4)",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "tableRowColumn": Object {
+                      "height": 48,
+                      "spacing": 24,
+                    },
+                    "tabs": Object {
+                      "backgroundColor": "#00bcd4",
+                      "selectedTextColor": "#ffffff",
+                      "textColor": "rgba(255, 255, 255, 0.7)",
+                    },
+                    "textField": Object {
+                      "backgroundColor": "transparent",
+                      "borderColor": "#e0e0e0",
+                      "disabledTextColor": "rgba(0, 0, 0, 0.3)",
+                      "errorColor": "#f44336",
+                      "floatingLabelColor": "rgba(0, 0, 0, 0.3)",
+                      "focusColor": "#00bcd4",
+                      "hintColor": "rgba(0, 0, 0, 0.3)",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "timePicker": Object {
+                      "accentColor": "#00bcd4",
+                      "clockCircleColor": "rgba(0, 0, 0, 0.07)",
+                      "clockColor": "rgba(0, 0, 0, 0.87)",
+                      "color": "#ffffff",
+                      "headerColor": "#00bcd4",
+                      "selectColor": "#0097a7",
+                      "selectTextColor": "#ffffff",
+                      "textColor": "#ffffff",
+                    },
+                    "toggle": Object {
+                      "labelColor": "rgba(0, 0, 0, 0.87)",
+                      "labelDisabledColor": "rgba(0, 0, 0, 0.3)",
+                      "thumbDisabledColor": "#e0e0e0",
+                      "thumbOffColor": "#f5f5f5",
+                      "thumbOnColor": "#00bcd4",
+                      "thumbRequiredColor": "#00bcd4",
+                      "trackDisabledColor": "#bdbdbd",
+                      "trackOffColor": "#bdbdbd",
+                      "trackOnColor": "rgba(0, 188, 212, 0.5)",
+                      "trackRequiredColor": "rgba(0, 188, 212, 0.5)",
+                    },
+                    "toolbar": Object {
+                      "backgroundColor": "rgb(232, 232, 232)",
+                      "color": "rgba(0, 0, 0, 0.54)",
+                      "height": 56,
+                      "hoverColor": "rgba(0, 0, 0, 0.87)",
+                      "iconColor": "rgba(0, 0, 0, 0.4)",
+                      "menuHoverColor": "rgba(0, 0, 0, 0.1)",
+                      "separatorColor": "rgba(0, 0, 0, 0.175)",
+                      "titleFontSize": 20,
+                    },
+                    "tooltip": Object {
+                      "color": "#ffffff",
+                      "rippleBackgroundColor": "#616161",
+                    },
+                    "zIndex": Object {
+                      "appBar": 1100,
+                      "dialog": 1500,
+                      "dialogOverlay": 1400,
+                      "drawer": 1300,
+                      "drawerOverlay": 1200,
+                      "layer": 2000,
+                      "menu": 1000,
+                      "popover": 2100,
+                      "snackbar": 2900,
+                      "tooltip": 3000,
+                    },
+                  }
+                }
+                style={
+                  Object {
+                    "color": "hsla(0, 0%, 35%, 1)",
+                    "height": "200%",
+                    "left": -12,
+                    "top": -12,
+                    "width": "200%",
+                  }
+                }>
+                <div
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]} />
+              </TouchRipple>
+              <FocusRipple
+                color="hsla(0, 0%, 35%, 1)"
+                innerStyle={
+                  Object {
+                    "color": "hsla(0, 0%, 35%, 1)",
+                    "height": "200%",
+                    "left": -12,
+                    "top": -12,
+                    "width": "200%",
+                  }
+                }
+                muiTheme={
+                  Object {
+                    "appBar": Object {
+                      "color": "#00bcd4",
+                      "height": 64,
+                      "padding": 24,
+                      "textColor": "#ffffff",
+                      "titleFontWeight": 400,
+                    },
+                    "avatar": Object {
+                      "backgroundColor": "rgb(188, 188, 188)",
+                      "color": "#ffffff",
+                    },
+                    "badge": Object {
+                      "color": "#ffffff",
+                      "fontWeight": 500,
+                      "primaryColor": "#00bcd4",
+                      "primaryTextColor": "#ffffff",
+                      "secondaryColor": "#ff4081",
+                      "secondaryTextColor": "#ffffff",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "baseTheme": Object {
+                      "fontFamily": "Roboto, sans-serif",
+                      "palette": Object {
+                        "accent1Color": "#ff4081",
+                        "accent2Color": "#f5f5f5",
+                        "accent3Color": "#9e9e9e",
+                        "alternateTextColor": "#ffffff",
+                        "borderColor": "#e0e0e0",
+                        "canvasColor": "#ffffff",
+                        "clockCircleColor": "rgba(0, 0, 0, 0.07)",
+                        "disabledColor": "rgba(0, 0, 0, 0.3)",
+                        "pickerHeaderColor": "#00bcd4",
+                        "primary1Color": "#00bcd4",
+                        "primary2Color": "#0097a7",
+                        "primary3Color": "#bdbdbd",
+                        "secondaryTextColor": "rgba(0, 0, 0, 0.54)",
+                        "shadowColor": "rgba(0, 0, 0, 1)",
+                        "textColor": "rgba(0, 0, 0, 0.87)",
+                      },
+                      "spacing": Object {
+                        "desktopDrawerMenuItemHeight": 48,
+                        "desktopDropDownMenuFontSize": 15,
+                        "desktopDropDownMenuItemHeight": 32,
+                        "desktopGutter": 24,
+                        "desktopGutterLess": 16,
+                        "desktopGutterMini": 8,
+                        "desktopGutterMore": 32,
+                        "desktopKeylineIncrement": 64,
+                        "desktopSubheaderHeight": 48,
+                        "desktopToolbarHeight": 56,
+                        "iconSize": 24,
+                      },
+                    },
+                    "bottomNavigation": Object {
+                      "backgroundColor": "#ffffff",
+                      "height": 56,
+                      "selectedColor": "#00bcd4",
+                      "selectedFontSize": 14,
+                      "unselectedColor": "rgba(0, 0, 0, 0.54)",
+                      "unselectedFontSize": 12,
+                    },
+                    "button": Object {
+                      "height": 36,
+                      "iconButtonSize": 48,
+                      "minWidth": 88,
+                    },
+                    "card": Object {
+                      "fontWeight": 500,
+                      "subtitleColor": "rgba(0, 0, 0, 0.54)",
+                      "titleColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "cardMedia": Object {
+                      "color": "rgba(255, 255, 255, 0.87)",
+                      "overlayContentBackground": "rgba(0, 0, 0, 0.54)",
+                      "subtitleColor": "rgba(255, 255, 255, 0.54)",
+                      "titleColor": "rgba(255, 255, 255, 0.87)",
+                    },
+                    "cardText": Object {
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "checkbox": Object {
+                      "boxColor": "rgba(0, 0, 0, 0.87)",
+                      "checkedColor": "#00bcd4",
+                      "disabledColor": "rgba(0, 0, 0, 0.3)",
+                      "labelColor": "rgba(0, 0, 0, 0.87)",
+                      "labelDisabledColor": "rgba(0, 0, 0, 0.3)",
+                      "requiredColor": "#00bcd4",
+                    },
+                    "chip": Object {
+                      "backgroundColor": "rgb(224, 224, 224)",
+                      "deleteIconColor": "rgba(0, 0, 0, 0.26)",
+                      "fontSize": 14,
+                      "fontWeight": 400,
+                      "shadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+                          0 1px 4px rgba(0, 0, 0, 0.12)",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "datePicker": Object {
+                      "calendarTextColor": "rgba(0, 0, 0, 0.87)",
+                      "calendarYearBackgroundColor": "#ffffff",
+                      "color": "#00bcd4",
+                      "selectColor": "#0097a7",
+                      "selectTextColor": "#ffffff",
+                      "textColor": "#ffffff",
+                    },
+                    "dialog": Object {
+                      "bodyColor": "rgba(0, 0, 0, 0.6)",
+                      "bodyFontSize": 16,
+                      "titleFontSize": 22,
+                    },
+                    "drawer": Object {
+                      "color": "#ffffff",
+                      "width": 256,
+                    },
+                    "dropDownMenu": Object {
+                      "accentColor": "#e0e0e0",
+                    },
+                    "enhancedButton": Object {
+                      "tapHighlightColor": "rgba(0, 0, 0, 0)",
+                    },
+                    "flatButton": Object {
+                      "buttonFilterColor": "#999999",
+                      "color": "rgba(0, 0, 0, 0)",
+                      "disabledTextColor": "rgba(0, 0, 0, 0.3)",
+                      "fontSize": 14,
+                      "fontWeight": 500,
+                      "primaryTextColor": "#00bcd4",
+                      "secondaryTextColor": "#ff4081",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "floatingActionButton": Object {
+                      "buttonSize": 56,
+                      "color": "#00bcd4",
+                      "disabledColor": "rgb(224, 224, 224)",
+                      "disabledTextColor": "rgba(0, 0, 0, 0.3)",
+                      "iconColor": "#ffffff",
+                      "miniSize": 40,
+                      "secondaryColor": "#ff4081",
+                      "secondaryIconColor": "#ffffff",
+                    },
+                    "fontFamily": "Roboto, sans-serif",
+                    "gridTile": Object {
+                      "textColor": "#ffffff",
+                    },
+                    "icon": Object {
+                      "backgroundColor": "#00bcd4",
+                      "color": "#ffffff",
+                    },
+                    "inkBar": Object {
+                      "backgroundColor": "#ff4081",
+                    },
+                    "isRtl": false,
+                    "listItem": Object {
+                      "leftIconColor": "#757575",
+                      "nestedLevelDepth": 18,
+                      "rightIconColor": "#757575",
+                      "secondaryTextColor": "rgba(0, 0, 0, 0.54)",
+                    },
+                    "menu": Object {
+                      "backgroundColor": "#ffffff",
+                      "containerBackgroundColor": "#ffffff",
+                    },
+                    "menuItem": Object {
+                      "dataHeight": 32,
+                      "height": 48,
+                      "hoverColor": "rgba(0, 0, 0, 0.1)",
+                      "padding": 24,
+                      "rightIconDesktopFill": "#757575",
+                      "selectedTextColor": "#ff4081",
+                    },
+                    "menuSubheader": Object {
+                      "borderColor": "#e0e0e0",
+                      "padding": 24,
+                      "textColor": "#00bcd4",
+                    },
+                    "overlay": Object {
+                      "backgroundColor": "rgba(0, 0, 0, 0.54)",
+                    },
+                    "palette": Object {
+                      "accent1Color": "#ff4081",
+                      "accent2Color": "#f5f5f5",
+                      "accent3Color": "#9e9e9e",
+                      "alternateTextColor": "#ffffff",
+                      "borderColor": "#e0e0e0",
+                      "canvasColor": "#ffffff",
+                      "clockCircleColor": "rgba(0, 0, 0, 0.07)",
+                      "disabledColor": "rgba(0, 0, 0, 0.3)",
+                      "pickerHeaderColor": "#00bcd4",
+                      "primary1Color": "#00bcd4",
+                      "primary2Color": "#0097a7",
+                      "primary3Color": "#bdbdbd",
+                      "secondaryTextColor": "rgba(0, 0, 0, 0.54)",
+                      "shadowColor": "rgba(0, 0, 0, 1)",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "paper": Object {
+                      "backgroundColor": "#ffffff",
+                      "color": "rgba(0, 0, 0, 0.87)",
+                      "zDepthShadows": Array [
+                        "0 1px 6px rgba(0, 0, 0, 0.12),
+                           0 1px 4px rgba(0, 0, 0, 0.12)",
+                        "0 3px 10px rgba(0, 0, 0, 0.16),
+                           0 3px 10px rgba(0, 0, 0, 0.23)",
+                        "0 10px 30px rgba(0, 0, 0, 0.19),
+                           0 6px 10px rgba(0, 0, 0, 0.23)",
+                        "0 14px 45px rgba(0, 0, 0, 0.25),
+                           0 10px 18px rgba(0, 0, 0, 0.22)",
+                        "0 19px 60px rgba(0, 0, 0, 0.3),
+                           0 15px 20px rgba(0, 0, 0, 0.22)",
+                      ],
+                    },
+                    "prepareStyles": [Function],
+                    "radioButton": Object {
+                      "backgroundColor": "#ffffff",
+                      "borderColor": "rgba(0, 0, 0, 0.87)",
+                      "checkedColor": "#00bcd4",
+                      "disabledColor": "rgba(0, 0, 0, 0.3)",
+                      "labelColor": "rgba(0, 0, 0, 0.87)",
+                      "labelDisabledColor": "rgba(0, 0, 0, 0.3)",
+                      "requiredColor": "#00bcd4",
+                      "size": 24,
+                    },
+                    "raisedButton": Object {
+                      "color": "#ffffff",
+                      "disabledColor": "rgb(229, 229, 229)",
+                      "disabledTextColor": "rgba(0, 0, 0, 0.3)",
+                      "fontSize": 14,
+                      "fontWeight": 500,
+                      "primaryColor": "#00bcd4",
+                      "primaryTextColor": "#ffffff",
+                      "secondaryColor": "#ff4081",
+                      "secondaryTextColor": "#ffffff",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "rawTheme": Object {
+                      "fontFamily": "Roboto, sans-serif",
+                      "palette": Object {
+                        "accent1Color": "#ff4081",
+                        "accent2Color": "#f5f5f5",
+                        "accent3Color": "#9e9e9e",
+                        "alternateTextColor": "#ffffff",
+                        "borderColor": "#e0e0e0",
+                        "canvasColor": "#ffffff",
+                        "clockCircleColor": "rgba(0, 0, 0, 0.07)",
+                        "disabledColor": "rgba(0, 0, 0, 0.3)",
+                        "pickerHeaderColor": "#00bcd4",
+                        "primary1Color": "#00bcd4",
+                        "primary2Color": "#0097a7",
+                        "primary3Color": "#bdbdbd",
+                        "secondaryTextColor": "rgba(0, 0, 0, 0.54)",
+                        "shadowColor": "rgba(0, 0, 0, 1)",
+                        "textColor": "rgba(0, 0, 0, 0.87)",
+                      },
+                      "spacing": Object {
+                        "desktopDrawerMenuItemHeight": 48,
+                        "desktopDropDownMenuFontSize": 15,
+                        "desktopDropDownMenuItemHeight": 32,
+                        "desktopGutter": 24,
+                        "desktopGutterLess": 16,
+                        "desktopGutterMini": 8,
+                        "desktopGutterMore": 32,
+                        "desktopKeylineIncrement": 64,
+                        "desktopSubheaderHeight": 48,
+                        "desktopToolbarHeight": 56,
+                        "iconSize": 24,
+                      },
+                    },
+                    "refreshIndicator": Object {
+                      "loadingStrokeColor": "#00bcd4",
+                      "strokeColor": "#e0e0e0",
+                    },
+                    "ripple": Object {
+                      "color": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "slider": Object {
+                      "handleColorZero": "#bdbdbd",
+                      "handleFillColor": "#ffffff",
+                      "handleSize": 12,
+                      "handleSizeActive": 18,
+                      "handleSizeDisabled": 8,
+                      "rippleColor": "#00bcd4",
+                      "selectionColor": "#00bcd4",
+                      "trackColor": "#bdbdbd",
+                      "trackColorSelected": "#9e9e9e",
+                      "trackSize": 2,
+                    },
+                    "snackbar": Object {
+                      "actionColor": "#ff4081",
+                      "backgroundColor": "rgba(0, 0, 0, 0.87)",
+                      "textColor": "#ffffff",
+                    },
+                    "spacing": Object {
+                      "desktopDrawerMenuItemHeight": 48,
+                      "desktopDropDownMenuFontSize": 15,
+                      "desktopDropDownMenuItemHeight": 32,
+                      "desktopGutter": 24,
+                      "desktopGutterLess": 16,
+                      "desktopGutterMini": 8,
+                      "desktopGutterMore": 32,
+                      "desktopKeylineIncrement": 64,
+                      "desktopSubheaderHeight": 48,
+                      "desktopToolbarHeight": 56,
+                      "iconSize": 24,
+                    },
+                    "stepper": Object {
+                      "backgroundColor": "transparent",
+                      "connectorLineColor": "#bdbdbd",
+                      "disabledTextColor": "rgba(0, 0, 0, 0.26)",
+                      "hoverBackgroundColor": "rgba(0, 0, 0, 0.06)",
+                      "hoveredIconColor": "#616161",
+                      "iconColor": "#00bcd4",
+                      "inactiveIconColor": "#9e9e9e",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "subheader": Object {
+                      "color": "rgba(0, 0, 0, 0.54)",
+                      "fontWeight": 500,
+                    },
+                    "svgIcon": Object {
+                      "color": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "table": Object {
+                      "backgroundColor": "#ffffff",
+                    },
+                    "tableFooter": Object {
+                      "borderColor": "#e0e0e0",
+                      "textColor": "#9e9e9e",
+                    },
+                    "tableHeader": Object {
+                      "borderColor": "#e0e0e0",
+                    },
+                    "tableHeaderColumn": Object {
+                      "height": 56,
+                      "spacing": 24,
+                      "textColor": "#9e9e9e",
+                    },
+                    "tableRow": Object {
+                      "borderColor": "#e0e0e0",
+                      "height": 48,
+                      "hoverColor": "#f5f5f5",
+                      "selectedColor": "#e0e0e0",
+                      "stripeColor": "rgba(127, 221, 233, 0.4)",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "tableRowColumn": Object {
+                      "height": 48,
+                      "spacing": 24,
+                    },
+                    "tabs": Object {
+                      "backgroundColor": "#00bcd4",
+                      "selectedTextColor": "#ffffff",
+                      "textColor": "rgba(255, 255, 255, 0.7)",
+                    },
+                    "textField": Object {
+                      "backgroundColor": "transparent",
+                      "borderColor": "#e0e0e0",
+                      "disabledTextColor": "rgba(0, 0, 0, 0.3)",
+                      "errorColor": "#f44336",
+                      "floatingLabelColor": "rgba(0, 0, 0, 0.3)",
+                      "focusColor": "#00bcd4",
+                      "hintColor": "rgba(0, 0, 0, 0.3)",
+                      "textColor": "rgba(0, 0, 0, 0.87)",
+                    },
+                    "timePicker": Object {
+                      "accentColor": "#00bcd4",
+                      "clockCircleColor": "rgba(0, 0, 0, 0.07)",
+                      "clockColor": "rgba(0, 0, 0, 0.87)",
+                      "color": "#ffffff",
+                      "headerColor": "#00bcd4",
+                      "selectColor": "#0097a7",
+                      "selectTextColor": "#ffffff",
+                      "textColor": "#ffffff",
+                    },
+                    "toggle": Object {
+                      "labelColor": "rgba(0, 0, 0, 0.87)",
+                      "labelDisabledColor": "rgba(0, 0, 0, 0.3)",
+                      "thumbDisabledColor": "#e0e0e0",
+                      "thumbOffColor": "#f5f5f5",
+                      "thumbOnColor": "#00bcd4",
+                      "thumbRequiredColor": "#00bcd4",
+                      "trackDisabledColor": "#bdbdbd",
+                      "trackOffColor": "#bdbdbd",
+                      "trackOnColor": "rgba(0, 188, 212, 0.5)",
+                      "trackRequiredColor": "rgba(0, 188, 212, 0.5)",
+                    },
+                    "toolbar": Object {
+                      "backgroundColor": "rgb(232, 232, 232)",
+                      "color": "rgba(0, 0, 0, 0.54)",
+                      "height": 56,
+                      "hoverColor": "rgba(0, 0, 0, 0.87)",
+                      "iconColor": "rgba(0, 0, 0, 0.4)",
+                      "menuHoverColor": "rgba(0, 0, 0, 0.1)",
+                      "separatorColor": "rgba(0, 0, 0, 0.175)",
+                      "titleFontSize": 20,
+                    },
+                    "tooltip": Object {
+                      "color": "#ffffff",
+                      "rippleBackgroundColor": "#616161",
+                    },
+                    "zIndex": Object {
+                      "appBar": 1100,
+                      "dialog": 1500,
+                      "dialogOverlay": 1400,
+                      "drawer": 1300,
+                      "drawerOverlay": 1200,
+                      "layer": 2000,
+                      "menu": 1000,
+                      "popover": 2100,
+                      "snackbar": 2900,
+                      "tooltip": 3000,
+                    },
+                  }
+                }
+                show={false}>
+                <ScaleIn
+                  enterDelay={0}
+                  maxScale={0.85}
+                  style={
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "100%",
+                    }
+                  }>
+                  <ReactTransitionGroup
+                    childFactory={[Function]}
+                    component="div"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "muiPrepared": true,
+                        "overflow": "hidden",
+                        "position": "absolute",
+                        "top": 0,
+                        "width": "100%",
+                      }
+                    }>
+                    <div
+                      style={
+                        Object {
+                          "height": "100%",
+                          "left": 0,
+                          "muiPrepared": true,
+                          "overflow": "hidden",
+                          "position": "absolute",
+                          "top": 0,
+                          "width": "100%",
+                        }
+                      } />
+                  </ReactTransitionGroup>
+                </ScaleIn>
+              </FocusRipple>
+            </div>
+            <label
+              style={
+                Object {
+                  "color": "rgba(0, 0, 0, 0.87)",
+                  "display": "block",
+                  "float": "left",
+                  "fontFamily": "Roboto, sans-serif",
+                  "lineHeight": "24px",
+                  "muiPrepared": true,
+                  "position": "relative",
+                  "width": "calc(100% - 60px)",
+                }
+              }>
+              My label
+            </label>
+          </div>
+        </div>
+      </EnhancedSwitch>
+    </Checkbox>
+  </Checkbox>
+</MuiThemeProvider>
+`;
