@@ -18,6 +18,14 @@ storiesOf('TextField', module)
       floatingLabelText={'My label'}
     />
   ))
+  .add('custom focus color', () => (
+    <TextField
+      id={'myId'}
+      value={'Some value'}
+      focusColor={'hsla(0, 0%, 30%, 1)'}
+      floatingLabelText={'My label'}
+    />
+  ))
   .add('with error', () => (
     <TextField
       id={'myId'}

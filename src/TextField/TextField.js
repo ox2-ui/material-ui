@@ -26,12 +26,12 @@ const styles = {
 /**
  * TextField Component
  */
-const TextField = ({ ...rest, errorText }) => (
+const TextField = ({ errorText, focusColor, ...rest }) => (
   <MaterialTextField
     floatingLabelFixed={true}
-    underlineFocusStyle={styles.underline}
+    underlineFocusStyle={focusColor ? { borderColor: focusColor } : styles.underline}
     floatingLabelStyle={styles.label}
-    floatingLabelFocusStyle={errorText ? styles.error : styles.labelFocus}
+    floatingLabelFocusStyle={errorText ? styles.error : focusColor ? { color: focusColor } : styles.labelFocus}
     errorStyle={styles.error}
     inputStyle={styles.input}
     hintStyle={styles.hint}
@@ -44,6 +44,7 @@ const TextField = ({ ...rest, errorText }) => (
 
 TextField.propTypes = {
   errorText: PropTypes.any,
+  focusColor: PropTypes.string,
 };
 
 

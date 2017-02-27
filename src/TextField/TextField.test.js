@@ -25,6 +25,21 @@ it('renders correctly', () => {
   expect(wrapper).toMatchSnapshot();
 });
 
+it('renders with custom focus color ', () => {
+  const wrapper = mount(
+    <MuiThemeProvider>
+      <TextField
+        id={'myId'}
+        value={'Some value'}
+        floatingLabelText={'My label'}
+        focusColor={'hsla(0, 0%, 30%, 1)'}
+      />
+    </MuiThemeProvider>
+  );
+
+  expect(wrapper).toMatchSnapshot();
+});
+
 it('renders correctly with error', () => {
   const wrapper = mount(
     <MuiThemeProvider>
