@@ -1,4 +1,6 @@
-exports[`test renders correctly 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
 <MuiThemeProvider
   muiTheme={
     Object {
@@ -414,11 +416,13 @@ exports[`test renders correctly 1`] = `
         "tooltip": 3000,
       },
     }
-  }>
+  }
+>
   <TextField
     floatingLabelText="My label"
     id="myId"
-    value="Some value">
+    value="Some value"
+  >
     <TextField
       disabled={false}
       floatingLabelFixed={true}
@@ -435,7 +439,8 @@ exports[`test renders correctly 1`] = `
       rows={1}
       type="text"
       underlineShow={true}
-      value="Some value">
+      value="Some value"
+    >
       <div
         style={
           Object {
@@ -451,7 +456,8 @@ exports[`test renders correctly 1`] = `
             "transition": "height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
             "width": "100%",
           }
-        }>
+        }
+      >
         <TextFieldLabel
           disabled={false}
           htmlFor="myId"
@@ -876,7 +882,8 @@ exports[`test renders correctly 1`] = `
               "color": "hsla(0, 0%, 35%, 1)",
               "pointerEvents": "none",
             }
-          }>
+          }
+        >
           <label
             htmlFor="myId"
             style={
@@ -893,7 +900,8 @@ exports[`test renders correctly 1`] = `
                 "userSelect": "none",
                 "zIndex": 1,
               }
-            }>
+            }
+          >
             My label
           </label>
         </TextFieldLabel>
@@ -925,7 +933,8 @@ exports[`test renders correctly 1`] = `
             }
           }
           type="text"
-          value="Some value" />
+          value="Some value"
+        />
         <TextFieldUnderline
           disabled={false}
           disabledStyle={Object {}}
@@ -1348,7 +1357,8 @@ exports[`test renders correctly 1`] = `
               },
             }
           }
-          style={Object {}}>
+          style={Object {}}
+        >
           <div>
             <hr
               style={
@@ -1365,7 +1375,8 @@ exports[`test renders correctly 1`] = `
                   "position": "absolute",
                   "width": "100%",
                 }
-              } />
+              }
+            />
             <hr
               style={
                 Object {
@@ -1383,7 +1394,8 @@ exports[`test renders correctly 1`] = `
                   "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
                   "width": "100%",
                 }
-              } />
+              }
+            />
           </div>
         </TextFieldUnderline>
       </div>
@@ -1392,7 +1404,7 @@ exports[`test renders correctly 1`] = `
 </MuiThemeProvider>
 `;
 
-exports[`test renders correctly with error 1`] = `
+exports[`renders correctly with error 1`] = `
 <MuiThemeProvider
   muiTheme={
     Object {
@@ -1808,12 +1820,14 @@ exports[`test renders correctly with error 1`] = `
         "tooltip": 3000,
       },
     }
-  }>
+  }
+>
   <TextField
     errorText="Invalid value"
     floatingLabelText="Some value"
     id="myId"
-    label="My label">
+    label="My label"
+  >
     <TextField
       disabled={false}
       errorText="Invalid value"
@@ -1831,7 +1845,8 @@ exports[`test renders correctly with error 1`] = `
       multiLine={false}
       rows={1}
       type="text"
-      underlineShow={true}>
+      underlineShow={true}
+    >
       <div
         style={
           Object {
@@ -1847,7 +1862,8 @@ exports[`test renders correctly with error 1`] = `
             "transition": "height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
             "width": "100%",
           }
-        }>
+        }
+      >
         <TextFieldLabel
           disabled={false}
           htmlFor="myId"
@@ -2272,7 +2288,8 @@ exports[`test renders correctly with error 1`] = `
               "color": "hsla(0, 0%, 35%, 1)",
               "pointerEvents": "none",
             }
-          }>
+          }
+        >
           <label
             htmlFor="myId"
             style={
@@ -2289,7 +2306,8 @@ exports[`test renders correctly with error 1`] = `
                 "userSelect": "none",
                 "zIndex": 1,
               }
-            }>
+            }
+          >
             Some value
           </label>
         </TextFieldLabel>
@@ -2321,7 +2339,8 @@ exports[`test renders correctly with error 1`] = `
               "width": "100%",
             }
           }
-          type="text" />
+          type="text"
+        />
         <TextFieldUnderline
           disabled={false}
           disabledStyle={Object {}}
@@ -2744,7 +2763,8 @@ exports[`test renders correctly with error 1`] = `
               },
             }
           }
-          style={Object {}}>
+          style={Object {}}
+        >
           <div>
             <hr
               style={
@@ -2761,7 +2781,8 @@ exports[`test renders correctly with error 1`] = `
                   "position": "absolute",
                   "width": "100%",
                 }
-              } />
+              }
+            />
             <hr
               style={
                 Object {
@@ -2779,7 +2800,8 @@ exports[`test renders correctly with error 1`] = `
                   "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
                   "width": "100%",
                 }
-              } />
+              }
+            />
           </div>
         </TextFieldUnderline>
         <div
@@ -2793,7 +2815,8 @@ exports[`test renders correctly with error 1`] = `
               "position": "relative",
               "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
             }
-          }>
+          }
+        >
           Invalid value
         </div>
       </div>

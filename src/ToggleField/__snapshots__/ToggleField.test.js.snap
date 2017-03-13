@@ -1,4 +1,6 @@
-exports[`test renders disabled correctly 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders disabled correctly 1`] = `
 <MuiThemeProvider
   muiTheme={
     Object {
@@ -414,10 +416,12 @@ exports[`test renders disabled correctly 1`] = `
         "tooltip": 3000,
       },
     }
-  }>
+  }
+>
   <ToggleField
     label="My label"
-    toggled={false}>
+    toggled={false}
+  >
     <div
       style={
         Object {
@@ -427,10 +431,12 @@ exports[`test renders disabled correctly 1`] = `
           "height": "42px",
           "marginTop": "10px",
         }
-      }>
+      }
+    >
       <Toggle
         label="My label"
-        toggled={false}>
+        toggled={false}
+      >
         <Toggle
           defaultToggled={false}
           disabled={false}
@@ -446,7 +452,8 @@ exports[`test renders disabled correctly 1`] = `
             Object {
               "backgroundColor": "hsla(145, 63%, 42%, .3)",
             }
-          }>
+          }
+        >
           <EnhancedSwitch
             checked={false}
             disabled={false}
@@ -483,7 +490,8 @@ exports[`test renders disabled correctly 1`] = `
                     "muiPrepared": true,
                     "width": 36,
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
@@ -494,7 +502,8 @@ exports[`test renders disabled correctly 1`] = `
                       "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
                       "width": "100%",
                     }
-                  } />
+                  }
+                />
                 <Paper
                   circle={true}
                   rounded={true}
@@ -512,7 +521,8 @@ exports[`test renders disabled correctly 1`] = `
                     }
                   }
                   transitionEnabled={true}
-                  zDepth={1} />
+                  zDepth={1}
+                />
               </div>
             }
             switched={false}
@@ -537,7 +547,8 @@ exports[`test renders disabled correctly 1`] = `
                 "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
                 "width": "100%",
               }
-            }>
+            }
+          >
             <div
               style={
                 Object {
@@ -549,11 +560,13 @@ exports[`test renders disabled correctly 1`] = `
                   "position": "relative",
                   "width": "100%",
                 }
-              }>
+              }
+            >
               <EventListener
                 onKeyDown={[Function]}
                 onKeyUp={[Function]}
-                target="window" />
+                target="window"
+              />
               <input
                 checked={false}
                 disabled={false}
@@ -581,7 +594,8 @@ exports[`test renders disabled correctly 1`] = `
                     "zIndex": 2,
                   }
                 }
-                type="checkbox" />
+                type="checkbox"
+              />
               <div
                 style={
                   Object {
@@ -589,7 +603,8 @@ exports[`test renders disabled correctly 1`] = `
                     "height": "100%",
                     "width": "100%",
                   }
-                }>
+                }
+              >
                 <label
                   style={
                     Object {
@@ -603,7 +618,8 @@ exports[`test renders disabled correctly 1`] = `
                       "position": "relative",
                       "width": "calc(100% - 46px)",
                     }
-                  }>
+                  }
+                >
                   My label
                 </label>
                 <div
@@ -620,7 +636,8 @@ exports[`test renders disabled correctly 1`] = `
                       "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
                       "width": 36,
                     }
-                  }>
+                  }
+                >
                   <div
                     style={
                       Object {
@@ -631,7 +648,8 @@ exports[`test renders disabled correctly 1`] = `
                         "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
                         "width": "100%",
                       }
-                    } />
+                    }
+                  />
                   <Paper
                     circle={true}
                     rounded={true}
@@ -649,7 +667,8 @@ exports[`test renders disabled correctly 1`] = `
                       }
                     }
                     transitionEnabled={true}
-                    zDepth={1}>
+                    zDepth={1}
+                  >
                     <div
                       style={
                         Object {
@@ -670,7 +689,8 @@ exports[`test renders disabled correctly 1`] = `
                           "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
                           "width": 20,
                         }
-                      }>
+                      }
+                    >
                        
                       <TouchRipple
                         abortOnScroll={true}
@@ -1099,13 +1119,15 @@ exports[`test renders disabled correctly 1`] = `
                             "top": -10,
                             "width": "200%",
                           }
-                        }>
+                        }
+                      >
                         <div
                           onMouseDown={[Function]}
                           onMouseLeave={[Function]}
                           onMouseUp={[Function]}
                           onTouchEnd={[Function]}
-                          onTouchStart={[Function]} />
+                          onTouchStart={[Function]}
+                        />
                       </TouchRipple>
                       <FocusRipple
                         color="rgba(0, 0, 0, 0.87)"
@@ -1533,7 +1555,8 @@ exports[`test renders disabled correctly 1`] = `
                             },
                           }
                         }
-                        show={false}>
+                        show={false}
+                      >
                         <ScaleIn
                           enterDelay={0}
                           maxScale={0.85}
@@ -1545,7 +1568,8 @@ exports[`test renders disabled correctly 1`] = `
                               "top": 0,
                               "width": "100%",
                             }
-                          }>
+                          }
+                        >
                           <ReactTransitionGroup
                             childFactory={[Function]}
                             component="div"
@@ -1559,7 +1583,8 @@ exports[`test renders disabled correctly 1`] = `
                                 "top": 0,
                                 "width": "100%",
                               }
-                            }>
+                            }
+                          >
                             <div
                               style={
                                 Object {
@@ -1571,7 +1596,8 @@ exports[`test renders disabled correctly 1`] = `
                                   "top": 0,
                                   "width": "100%",
                                 }
-                              } />
+                              }
+                            />
                           </ReactTransitionGroup>
                         </ScaleIn>
                       </FocusRipple>
@@ -1589,7 +1615,7 @@ exports[`test renders disabled correctly 1`] = `
 </MuiThemeProvider>
 `;
 
-exports[`test renders enabled correctly 1`] = `
+exports[`renders enabled correctly 1`] = `
 <MuiThemeProvider
   muiTheme={
     Object {
@@ -2005,10 +2031,12 @@ exports[`test renders enabled correctly 1`] = `
         "tooltip": 3000,
       },
     }
-  }>
+  }
+>
   <ToggleField
     label="My label"
-    toggled={true}>
+    toggled={true}
+  >
     <div
       style={
         Object {
@@ -2018,10 +2046,12 @@ exports[`test renders enabled correctly 1`] = `
           "height": "42px",
           "marginTop": "10px",
         }
-      }>
+      }
+    >
       <Toggle
         label="My label"
-        toggled={true}>
+        toggled={true}
+      >
         <Toggle
           defaultToggled={false}
           disabled={false}
@@ -2037,7 +2067,8 @@ exports[`test renders enabled correctly 1`] = `
             Object {
               "backgroundColor": "hsla(145, 63%, 42%, .3)",
             }
-          }>
+          }
+        >
           <EnhancedSwitch
             checked={true}
             disabled={false}
@@ -2074,7 +2105,8 @@ exports[`test renders enabled correctly 1`] = `
                     "muiPrepared": true,
                     "width": 36,
                   }
-                }>
+                }
+              >
                 <div
                   style={
                     Object {
@@ -2085,7 +2117,8 @@ exports[`test renders enabled correctly 1`] = `
                       "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
                       "width": "100%",
                     }
-                  } />
+                  }
+                />
                 <Paper
                   circle={true}
                   rounded={true}
@@ -2104,7 +2137,8 @@ exports[`test renders enabled correctly 1`] = `
                     }
                   }
                   transitionEnabled={true}
-                  zDepth={1} />
+                  zDepth={1}
+                />
               </div>
             }
             switched={true}
@@ -2130,7 +2164,8 @@ exports[`test renders enabled correctly 1`] = `
                 "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
                 "width": "100%",
               }
-            }>
+            }
+          >
             <div
               style={
                 Object {
@@ -2142,11 +2177,13 @@ exports[`test renders enabled correctly 1`] = `
                   "position": "relative",
                   "width": "100%",
                 }
-              }>
+              }
+            >
               <EventListener
                 onKeyDown={[Function]}
                 onKeyUp={[Function]}
-                target="window" />
+                target="window"
+              />
               <input
                 checked={true}
                 disabled={false}
@@ -2174,7 +2211,8 @@ exports[`test renders enabled correctly 1`] = `
                     "zIndex": 2,
                   }
                 }
-                type="checkbox" />
+                type="checkbox"
+              />
               <div
                 style={
                   Object {
@@ -2182,7 +2220,8 @@ exports[`test renders enabled correctly 1`] = `
                     "height": "100%",
                     "width": "100%",
                   }
-                }>
+                }
+              >
                 <label
                   style={
                     Object {
@@ -2196,7 +2235,8 @@ exports[`test renders enabled correctly 1`] = `
                       "position": "relative",
                       "width": "calc(100% - 46px)",
                     }
-                  }>
+                  }
+                >
                   My label
                 </label>
                 <div
@@ -2213,7 +2253,8 @@ exports[`test renders enabled correctly 1`] = `
                       "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
                       "width": 36,
                     }
-                  }>
+                  }
+                >
                   <div
                     style={
                       Object {
@@ -2224,7 +2265,8 @@ exports[`test renders enabled correctly 1`] = `
                         "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
                         "width": "100%",
                       }
-                    } />
+                    }
+                  />
                   <Paper
                     circle={true}
                     rounded={true}
@@ -2243,7 +2285,8 @@ exports[`test renders enabled correctly 1`] = `
                       }
                     }
                     transitionEnabled={true}
-                    zDepth={1}>
+                    zDepth={1}
+                  >
                     <div
                       style={
                         Object {
@@ -2265,7 +2308,8 @@ exports[`test renders enabled correctly 1`] = `
                           "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
                           "width": 20,
                         }
-                      }>
+                      }
+                    >
                        
                       <TouchRipple
                         abortOnScroll={true}
@@ -2694,13 +2738,15 @@ exports[`test renders enabled correctly 1`] = `
                             "top": -10,
                             "width": "200%",
                           }
-                        }>
+                        }
+                      >
                         <div
                           onMouseDown={[Function]}
                           onMouseLeave={[Function]}
                           onMouseUp={[Function]}
                           onTouchEnd={[Function]}
-                          onTouchStart={[Function]} />
+                          onTouchStart={[Function]}
+                        />
                       </TouchRipple>
                       <FocusRipple
                         color="hsla(145, 63%, 42%, 1)"
@@ -3128,7 +3174,8 @@ exports[`test renders enabled correctly 1`] = `
                             },
                           }
                         }
-                        show={false}>
+                        show={false}
+                      >
                         <ScaleIn
                           enterDelay={0}
                           maxScale={0.85}
@@ -3140,7 +3187,8 @@ exports[`test renders enabled correctly 1`] = `
                               "top": 0,
                               "width": "100%",
                             }
-                          }>
+                          }
+                        >
                           <ReactTransitionGroup
                             childFactory={[Function]}
                             component="div"
@@ -3154,7 +3202,8 @@ exports[`test renders enabled correctly 1`] = `
                                 "top": 0,
                                 "width": "100%",
                               }
-                            }>
+                            }
+                          >
                             <div
                               style={
                                 Object {
@@ -3166,7 +3215,8 @@ exports[`test renders enabled correctly 1`] = `
                                   "top": 0,
                                   "width": "100%",
                                 }
-                              } />
+                              }
+                            />
                           </ReactTransitionGroup>
                         </ScaleIn>
                       </FocusRipple>
