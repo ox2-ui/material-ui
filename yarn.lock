@@ -103,6 +103,10 @@
     webpack-dev-middleware "^1.6.0"
     webpack-hot-middleware "^2.13.2"
 
+"@ox2/colors@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@ox2/colors/-/colors-0.0.1.tgz#bcdda3f8e24ccfdab5e93b276bb70860c496b43a"
+
 "@ox2/css-font-roboto-condensed@^3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@ox2/css-font-roboto-condensed/-/css-font-roboto-condensed-3.0.0.tgz#a169571cd96cc7d141d26d3671d307c8fb59a477"
@@ -117,6 +121,12 @@
   dependencies:
     react-dimensions next
     react-virtualized "^8.7.1"
+
+"@ox2/theme-mui@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@ox2/theme-mui/-/theme-mui-0.0.2.tgz#2981fd59caefa85972fd602ca4e2d2dd99c4fe35"
+  dependencies:
+    "@ox2/colors" "^0.0.1"
 
 abab@^1.0.3:
   version "1.0.3"

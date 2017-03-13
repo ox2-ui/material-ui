@@ -1,5 +1,6 @@
 import React from 'react';
 import Toggle from '../Toggle';
+import { neutral_faded } from '@ox2/colors';
 
 const styles = {
   wrapper: {
@@ -7,7 +8,7 @@ const styles = {
     alignItems: 'center',
     height: '42px',
     marginTop: '10px',
-    borderBottom: '1px solid rgb(224, 224, 224)',
+    borderBottom: `1px solid ${neutral_faded}`,
   },
 };
 

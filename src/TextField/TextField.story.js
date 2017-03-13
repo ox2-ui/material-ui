@@ -1,11 +1,15 @@
 import React from 'react';
 import { storiesOf } from '@kadira/storybook';
 import TextField from './TextField';
+import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import theme from '@ox2/theme-mui';
+
+const muiTheme = getMuiTheme(theme);
 
 storiesOf('TextField', module)
   .addDecorator((getStory) => (
-    <MuiThemeProvider>
+    <MuiThemeProvider muiTheme={muiTheme}>
       <div style={{width: '320px', padding: '20px'}}>
         { getStory() }
       </div>
@@ -15,14 +19,6 @@ storiesOf('TextField', module)
     <TextField
       id={'myId'}
       value={'Some value'}
-      floatingLabelText={'My label'}
-    />
-  ))
-  .add('custom focus color', () => (
-    <TextField
-      id={'myId'}
-      value={'Some value'}
-      focusColor={'hsla(0, 0%, 30%, 1)'}
       floatingLabelText={'My label'}
     />
   ))

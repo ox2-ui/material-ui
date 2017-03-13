@@ -28,6 +28,7 @@
     "@ox2/css-font-roboto": "^1.0.0",
     "@ox2/css-font-roboto-condensed": "^3.0.0",
     "@ox2/iframe": "^0.0.3",
+    "@ox2/theme-mui": "^0.0.2",
     "babel-cli": "^6.22.2",
     "babel-core": "^6.22.1",
     "babel-eslint": "^7.1.1",
@@ -59,6 +60,7 @@
     "npm": "^3.0.0"
   },
   "dependencies": {
+    "@ox2/colors": "^0.0.1",
     "material-ui": "^0.17.0"
   },
   "peerDependencies": {
