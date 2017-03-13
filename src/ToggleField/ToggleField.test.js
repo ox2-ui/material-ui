@@ -2,11 +2,15 @@
 import React from 'react';
 import { shallow, render, mount } from 'enzyme';
 import ToggleField from './ToggleField';
+import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import theme from '@ox2/theme-mui';
+
+const muiTheme = getMuiTheme(theme);
 
 it('renders enabled correctly', () => {
   const wrapper = mount(
-    <MuiThemeProvider>
+    <MuiThemeProvider muiTheme={muiTheme}>
       <ToggleField label={'My label'} toggled={true} />
     </MuiThemeProvider>
   );
@@ -16,7 +20,7 @@ it('renders enabled correctly', () => {
 
 it('renders disabled correctly', () => {
   const wrapper = mount(
-    <MuiThemeProvider>
+    <MuiThemeProvider muiTheme={muiTheme}>
       <ToggleField label={'My label'} toggled={false} />
     </MuiThemeProvider>
   );

@@ -2,8 +2,12 @@
 import React from 'react';
 import { shallow, render, mount } from 'enzyme';
 import TextField from './TextField';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import injectTapEventPlugin from 'react-tap-event-plugin';
+import getMuiTheme from 'material-ui/styles/getMuiTheme';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import theme from '@ox2/theme-mui';
+
+const muiTheme = getMuiTheme(theme);
 
 // Material UI
 // Needed for onTouchTap
@@ -13,26 +17,11 @@ injectTapEventPlugin();
 
 it('renders correctly', () => {
   const wrapper = mount(
-    <MuiThemeProvider>
+    <MuiThemeProvider muiTheme={muiTheme}>
       <TextField
         id={'myId'}
         value={'Some value'}
         floatingLabelText={'My label'}
-      />
-    </MuiThemeProvider>
-  );
-
-  expect(wrapper).toMatchSnapshot();
-});
-
-it('renders with custom focus color ', () => {
-  const wrapper = mount(
-    <MuiThemeProvider>
-      <TextField
-        id={'myId'}
-        value={'Some value'}
-        floatingLabelText={'My label'}
-        focusColor={'hsla(0, 0%, 30%, 1)'}
       />
     </MuiThemeProvider>
   );
@@ -42,7 +31,7 @@ it('renders with custom focus color ', () => {
 
 it('renders correctly with error', () => {
   const wrapper = mount(
-    <MuiThemeProvider>
+    <MuiThemeProvider muiTheme={muiTheme}>
       <TextField
         id={'myId'}
         label={'My label'}
