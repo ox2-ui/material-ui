@@ -17,16 +17,16 @@ storiesOf('TextField', module)
   ))
   .add('default', () => (
     <TextField
+      floatingLabelText={'My label'}
       id={'myId'}
       value={'Some value'}
-      floatingLabelText={'My label'}
     />
   ))
   .add('with error', () => (
     <TextField
+      errorText={'Invalid value'}
+      floatingLabelText={'Some value'}
       id={'myId'}
       label={'My label'}
-      floatingLabelText={'Some value'}
-      errorText={'Invalid value'}
     />
   ));

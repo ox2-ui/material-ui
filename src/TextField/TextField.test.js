@@ -19,9 +19,9 @@ it('renders correctly', () => {
   const wrapper = mount(
     <MuiThemeProvider muiTheme={muiTheme}>
       <TextField
+        floatingLabelText={'My label'}
         id={'myId'}
         value={'Some value'}
-        floatingLabelText={'My label'}
       />
     </MuiThemeProvider>
   );
@@ -33,10 +33,10 @@ it('renders correctly with error', () => {
   const wrapper = mount(
     <MuiThemeProvider muiTheme={muiTheme}>
       <TextField
+        errorText={'Invalid value'}
+        floatingLabelText={'Some value'}
         id={'myId'}
         label={'My label'}
-        floatingLabelText={'Some value'}
-        errorText={'Invalid value'}
       />
     </MuiThemeProvider>
   );

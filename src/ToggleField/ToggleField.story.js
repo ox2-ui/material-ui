@@ -22,5 +22,5 @@ storiesOf('TogglField', module)
     <ToggleField label={'My label'} toggled={false} />
   ))
   .add('disabled', () => (
-    <ToggleField label={'My label'} toggled={false} disabled={true} />
+    <ToggleField disabled={true} label={'My label'} toggled={false} />
   ));
