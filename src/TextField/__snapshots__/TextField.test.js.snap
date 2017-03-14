@@ -426,6 +426,11 @@ exports[`renders correctly 1`] = `
     <TextField
       disabled={false}
       floatingLabelFixed={true}
+      floatingLabelStyle={
+        Object {
+          "fontSize": "18px",
+        }
+      }
       floatingLabelText="My label"
       fullWidth={true}
       id="myId"
@@ -880,6 +885,7 @@ exports[`renders correctly 1`] = `
           style={
             Object {
               "color": "hsla(0, 0%, 35%, 1)",
+              "fontSize": "18px",
               "pointerEvents": "none",
             }
           }
@@ -889,6 +895,7 @@ exports[`renders correctly 1`] = `
             style={
               Object {
                 "color": "hsla(0, 0%, 35%, 1)",
+                "fontSize": "18px",
                 "lineHeight": "22px",
                 "muiPrepared": true,
                 "pointerEvents": "none",
@@ -1832,6 +1839,11 @@ exports[`renders correctly with error 1`] = `
       disabled={false}
       errorText="Invalid value"
       floatingLabelFixed={true}
+      floatingLabelStyle={
+        Object {
+          "fontSize": "18px",
+        }
+      }
       floatingLabelText="Some value"
       fullWidth={true}
       id="myId"
@@ -2286,6 +2298,7 @@ exports[`renders correctly with error 1`] = `
           style={
             Object {
               "color": "hsla(0, 0%, 35%, 1)",
+              "fontSize": "18px",
               "pointerEvents": "none",
             }
           }
@@ -2295,6 +2308,7 @@ exports[`renders correctly with error 1`] = `
             style={
               Object {
                 "color": "hsla(0, 0%, 35%, 1)",
+                "fontSize": "18px",
                 "lineHeight": "22px",
                 "muiPrepared": true,
                 "pointerEvents": "none",
